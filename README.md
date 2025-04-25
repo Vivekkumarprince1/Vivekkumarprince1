@@ -1,18 +1,20 @@
-<h1 align="center">Hi, I'm vivek kumar 👋</h1>
+<h1 align="center">Hi, I'm Vivek Kumar 👋</h1>
 
-<div align="center">
-  <img src="https://github.com/7oSkaaa/7oSkaaa/raw/main/Images/Right_Side.gif" alt="Right Side Animation" width="250"/>
+<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 250px;">
+    <h3>👨‍💻 About Me</h3>
+    <ul>
+      <li>🎓 <strong>University</strong>: I am a Student at <strong>National Institute of Technology, Jamshedpur</strong>.</li>
+      <li>🌐 <strong>Technologist</strong>: I love using software as a solution for every problem and exploring innovation with new technologies.</li>
+      <li>💻 <strong>Competitive Programmer</strong>: Active on <strong>Codeforces</strong>, <strong>LeetCode</strong>, and other platforms.</li>
+      <li>📚 <strong>Student</strong>: I’m currently learning <strong>Computer Science and Software Engineering</strong>.</li>
+      <li>💭 <strong>Open to Opportunities</strong>: I’m looking for new job opportunities—check out my <a href="#">RESUME</a> and <a href="#">PORTFOLIO</a>.</li>
+    </ul>
+  </div>
+  <div style="flex: 1; text-align: center; min-width: 250px;">
+    <img src="https://github.com/7oSkaaa/7oSkaaa/raw/main/Images/Right_Side.gif" alt="Right Side Animation" width="250"/>
+  </div>
 </div>
-
----
-
-### 👨‍💻 About Me
-
-- 🎓 **University**: I am a Student at **National Institute of Technology, Jamshedpur**.  
-- 🌐 **Technologist**: I love using software as a solution for every problem and exploring innovation with new technologies.  
-- 💻 **Competitive Programmer**: Active on **Codeforces**, **LeetCode**, and other platforms.  
-- 📚 **Student**: I’m currently learning **Computer Science and Software Engineering**.  
-- 💭 **Open to Opportunities**: I’m looking for new job opportunities—check out my [RESUME](#) and [PORTFOLIO](#).  
 
 ---
 
@@ -65,7 +67,7 @@
 
 <h2 align="center">🐍 My Contributions 🐍</h2>
 <div align="center">
-  <img src="https://github.com/Vivekkumarprince1/Vivekkumarprince1/raw/output/github-contribution-grid-snake.svg" alt="Snake Animation"/>
+  <img src="https://github.com/Vivekkumarprince1/Vivekkumarprince1/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation"/>
 </div>
 
 ---
