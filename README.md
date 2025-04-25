@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm @Vivekkumarprince1</h1>
 <h3 align="center">Welcome to my GitHub profile!</h3>
 
-<div align="center">
+<div align="right">
 <div style="float: right; margin-left: 20px;">
   <img src="https://github.com/7oSkaaa/7oSkaaa/raw/main/Images/Right_Side.gif" alt="Right Side Animation" width="250"/>
 </div>
