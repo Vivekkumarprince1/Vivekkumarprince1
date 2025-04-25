@@ -2,8 +2,7 @@
 <h3 align="center">Welcome to my GitHub profile!</h3>
 
 <div align="center">
-  <img src="https://github.com/7oSkaaa/7oSkaaa/raw/main/Images/Right_Side.gif" alt="Right Side Animation" width="250"/>
-</div><div style="float: right; margin-left: 20px;">
+<div style="float: right; margin-left: 20px;">
   <img src="https://github.com/7oSkaaa/7oSkaaa/raw/main/Images/Right_Side.gif" alt="Right Side Animation" width="250"/>
 </div>
 
@@ -17,6 +16,7 @@
 - ⚡ Fun fact: **I love solving puzzles and exploring new technologies**  
 
 ---
+</div>
 
 <h2 align="center">🚀 My Skills</h2>
 <p align="center">
@@ -50,9 +50,3 @@
   </a>
 </p>
 
----
-
-<!---
-Vivekkumarprince1/Vivekkumarprince1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
