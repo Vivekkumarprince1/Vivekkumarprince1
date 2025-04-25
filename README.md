@@ -3,6 +3,8 @@
 
 <div align="center">
   <img src="https://github.com/7oSkaaa/7oSkaaa/raw/main/Images/Right_Side.gif" alt="Right Side Animation" width="250"/>
+</div><div style="float: right; margin-left: 20px;">
+  <img src="https://github.com/7oSkaaa/7oSkaaa/raw/main/Images/Right_Side.gif" alt="Right Side Animation" width="250"/>
 </div>
 
 ---
