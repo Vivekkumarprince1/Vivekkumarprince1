@@ -24,9 +24,9 @@
 <h2 align="center">🐣 My Competitive Programming Profiles</h2>
 
 <p align="center">
-  <a href="https://codeforces.com/profile/vinaytheprogrammer" target="_blank"> 
+  <!-- <a href="https://codeforces.com/profile/vinaytheprogrammer" target="_blank"> 
     <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" />
-  </a>
+  </a> -->
   <a href="https://leetcode.com/u/q5lq9sHvTw/" target="_blank"> 
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
   </a>
