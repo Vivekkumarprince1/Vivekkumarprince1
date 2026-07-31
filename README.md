@@ -1,70 +1,96 @@
-<h1 align="center">Hi, I'm Vivek Kumar 👋</h1> 
+<div align="center">
 
-<table border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
-  <tr>
-    <td style="width: 50%; vertical-align: top;">
-      <h3>👨‍💻 About Me</h3>
-      <ul>
-        <li>🎓 <strong>University</strong>: Student at <strong>UIET, Panjab University</strong>, pursuing B.E. in <strong>Computer Science</strong>.</li>
-        <li>🌐 <strong>Tech Enthusiast</strong>: Passionate about solving real-world problems using technology and building scalable web solutions.</li>
-        <li>💻 <strong>Competitive Programmer</strong>: Practicing regularly on <strong>LeetCode</strong>, <strong>Codeforces</strong>, and more.</li>
-        <li>💼 <strong>Founder</strong> of <strong><a href="https://fmpg.in" target="_blank">FMPG</a></strong>: A room booking and real estate solution platform.</li>
-        <li>💭 <strong>Open to Opportunities</strong>: Actively seeking roles in software development. Check out my <a href="#">RESUME</a> and <a href="#">PORTFOLIO</a>.</li>
-      </ul>
-    </td>
-    <td style="width: 50%; text-align: center;">
-      <img src="https://github.com/7oSkaaa/7oSkaaa/raw/main/Images/Right_Side.gif" alt="Right Side Animation" width="300" />
-    </td>
-  </tr>
-</table>
+# Vivek Kumar
 
+### Full-Stack Engineer · Product Builder · Open-Source Explorer
 
+I build reliable web products—from polished interfaces to APIs, payments, infrastructure, and production deployments.
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-react-one-orcin.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vivek-kumar-2055211a6)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vivekkumarprince1@gmail.com)
 
-<h2 align="center">🐣 My Competitive Programming Profiles</h2>
+</div>
 
-<p align="center">
-  <!-- <a href="https://codeforces.com/profile/vinaytheprogrammer" target="_blank"> 
-    <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" />
-  </a> -->
-  <a href="https://leetcode.com/u/q5lq9sHvTw/" target="_blank"> 
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
-  </a>
-  <a href="https://github.com/Vivekkumarprince1" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://www.geeksforgeeks.org/user/" target="_blank">
-    <img src="https://img.shields.io/badge/GeeksforGeeks-0F9D58?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" />
-  </a>
-</p>
+---
 
-<h2 align="center">📚 My Frequent Used Resources</h2>
+## About me
 
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black" alt="Webpack" />
-</p>
+I'm a Computer Science engineer from **UIET, Panjab University**, focused on building end-to-end products that solve practical problems. I enjoy working across the stack: designing user experiences, shaping backend architecture, integrating third-party services, and shipping applications to production.
 
-<h3>Software & Tools</h3>
+- Building **FMPG**, a property discovery and accommodation-booking platform
+- Developing scalable APIs and multi-service systems with TypeScript, Node.js, Docker, and Kubernetes
+- Exploring platform engineering, GitOps, cloud infrastructure, and AI-enabled products
+- Strengthening problem-solving fundamentals through data structures and algorithms
+- Open to software engineering roles and meaningful product collaborations
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
-  <img src="https://img.shields.io/badge/CodeSandbox-000000?style=for-the-badge&logo=codesandbox&logoColor=white" alt="CodeSandbox" />
-</p>
+## Selected work
 
-<h2 align="center">⚡ Stats ⚡</h2> <div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Vivekkumarprince1&show_icons=true&theme=tokyonight" alt="GitHub Stats"/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vivekkumarprince1&theme=tokyonight" alt="GitHub Streak Stats"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vivekkumarprince1&layout=compact&theme=tokyonight" alt="Top Languages"/> </div>
-<!-- <h2 align="center">🐍 My Contributions 🐍</h2> <div align="center"> <img src="https://github.com/Vivekkumarprince1/Vivekkumarprince1/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation"/> </div> -->
-<h2 align="center">🌐 Connect with Me 🌐</h2> <p align="center"> <a href="https://www.linkedin.com/in/vivek-kumar-2055211a6" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/> </a> <a href="mailto:vivekkumarprince1@gmail.com" target="_blank"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/> </a> <a href="https://x.com/Vivekra90835697" target="_blank"> <img src="https://img.shields.io/badge/X-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="X (Twitter)"/> </a> <a href="https://www.facebook.com/vivek.kumarraj.315" target="_blank"> <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/> </a> </p>
+| Project | What it does | Engineering focus |
+| :--- | :--- | :--- |
+| [**wApi**](https://github.com/Vivekkumarprince1/wApi) | A production-oriented WhatsApp API platform organized as a multi-app, multi-service codebase. | TypeScript, microservices, Docker, Kubernetes, CI/CD |
+| [**FMPG**](https://github.com/Vivekkumarprince1/fmpg) · [Live](https://fmpg.vercel.app) | Property discovery and booking platform with customer, owner, and admin workflows. | Node.js, Express, MongoDB, EJS, payments, OTP, Cloudinary |
+| [**Career at FMPG**](https://github.com/Vivekkumarprince1/career.fmpg) · [Live](https://career-fmpg.vercel.app) | A dedicated hiring experience for discovering and applying to opportunities at FMPG. | MERN stack, recruitment workflows, responsive UI |
+| [**Vaani**](https://github.com/Vivekkumarprince1/vaani) · [Live](https://react-vaani-frontend.vercel.app) | A full-stack communication product with separately structured client and server applications. | React, Node.js, Express, MongoDB |
+| [**ConnectSphere GitOps**](https://github.com/Vivekkumarprince1/connectsphere-gitops) | Declarative deployment configuration and environment automation for ConnectSphere. | GitOps, Kubernetes, Helm, infrastructure automation |
+
+## Engineering toolkit
+
+<div align="center">
+
+**Languages**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-18181B?style=flat-square&logo=javascript)
+![TypeScript](https://img.shields.io/badge/TypeScript-18181B?style=flat-square&logo=typescript)
+![C++](https://img.shields.io/badge/C++-18181B?style=flat-square&logo=cplusplus)
+![HTML5](https://img.shields.io/badge/HTML5-18181B?style=flat-square&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-18181B?style=flat-square&logo=css3)
+
+**Frontend & Backend**
+
+![React](https://img.shields.io/badge/React-18181B?style=flat-square&logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-18181B?style=flat-square&logo=nextdotjs)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-18181B?style=flat-square&logo=tailwindcss)
+![Node.js](https://img.shields.io/badge/Node.js-18181B?style=flat-square&logo=nodedotjs)
+![Express](https://img.shields.io/badge/Express-18181B?style=flat-square&logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-18181B?style=flat-square&logo=mongodb)
+![MySQL](https://img.shields.io/badge/MySQL-18181B?style=flat-square&logo=mysql)
+
+**Cloud & Delivery**
+
+![Docker](https://img.shields.io/badge/Docker-18181B?style=flat-square&logo=docker)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-18181B?style=flat-square&logo=kubernetes)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-18181B?style=flat-square&logo=githubactions)
+![AWS](https://img.shields.io/badge/AWS-18181B?style=flat-square&logo=amazonwebservices)
+![Vercel](https://img.shields.io/badge/Vercel-18181B?style=flat-square&logo=vercel)
+![Linux](https://img.shields.io/badge/Linux-18181B?style=flat-square&logo=linux)
+
+</div>
+
+## GitHub activity
+
+<div align="center">
+
+<a href="https://github.com/Vivekkumarprince1">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Vivekkumarprince1&amp;show_icons=true&amp;hide_border=true&amp;rank_icon=github&amp;theme=transparent&amp;title_color=2563eb&amp;icon_color=2563eb&amp;text_color=64748b" alt="Vivek Kumar's GitHub statistics" />
+</a>
+<a href="https://github.com/Vivekkumarprince1?tab=repositories">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vivekkumarprince1&amp;layout=compact&amp;hide_border=true&amp;theme=transparent&amp;title_color=2563eb&amp;text_color=64748b" alt="Most used languages across Vivek Kumar's public repositories" />
+</a>
+
+</div>
+
+> I care about maintainable systems, thoughtful user experiences, and shipping work that creates measurable value.
+
+## Let's connect
+
+If you're building a useful product, hiring for a software engineering role, or want to collaborate on an ambitious idea, I'd be glad to talk.
+
+- **Email:** [vivekkumarprince1@gmail.com](mailto:vivekkumarprince1@gmail.com)
+- **LinkedIn:** [linkedin.com/in/vivek-kumar-2055211a6](https://www.linkedin.com/in/vivek-kumar-2055211a6)
+- **LeetCode:** [q5lq9sHvTw](https://leetcode.com/u/q5lq9sHvTw/)
+- **X:** [@Vivekra90835697](https://x.com/Vivekra90835697)
+
+<div align="center">
+  <sub>Building with curiosity, ownership, and attention to detail.</sub>
+</div>
