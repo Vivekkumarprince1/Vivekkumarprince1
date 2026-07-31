@@ -1,0 +1,33 @@
+<svg width="1280" height="480" viewBox="0 0 1280 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Vivek Kumar, full-stack engineer</title>
+  <desc id="desc">Editorial blue and black portfolio cover showing Vivek Kumar's engineering focus.</desc>
+  <rect width="1280" height="480" rx="24" fill="#FAFAFA"/>
+  <rect x="0" y="0" width="24" height="480" rx="12" fill="#2563EB"/>
+  <rect x="820" y="0" width="460" height="480" rx="24" fill="#18181B"/>
+  <path d="M820 24V456" stroke="#3F3F46"/>
+
+  <text x="72" y="82" fill="#2563EB" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3">FULL-STACK ENGINEER / PRODUCT BUILDER</text>
+  <text x="68" y="205" fill="#09090B" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="700" letter-spacing="-5">Vivek</text>
+  <text x="68" y="310" fill="#09090B" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="700" letter-spacing="-5">Kumar.</text>
+  <path d="M72 352H708" stroke="#D4D4D8" stroke-width="2"/>
+  <text x="72" y="395" fill="#3F3F46" font-family="Arial, Helvetica, sans-serif" font-size="19">I design, build, and ship dependable digital products.</text>
+  <text x="72" y="428" fill="#71717A" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1">CHANDIGARH, INDIA  ·  AVAILABLE FOR SOFTWARE ENGINEERING ROLES</text>
+
+  <text x="868" y="72" fill="#71717A" font-family="monospace" font-size="14">01 / SYSTEM PROFILE</text>
+  <circle cx="874" cy="120" r="6" fill="#22C55E"/>
+  <text x="892" y="126" fill="#A1A1AA" font-family="monospace" font-size="14">STATUS: BUILDING</text>
+
+  <text x="868" y="190" fill="#FAFAFA" font-family="monospace" font-size="17">interface</text>
+  <text x="1120" y="190" fill="#60A5FA" font-family="monospace" font-size="17">thoughtful</text>
+  <path d="M868 212H1230" stroke="#3F3F46"/>
+  <text x="868" y="252" fill="#FAFAFA" font-family="monospace" font-size="17">architecture</text>
+  <text x="1120" y="252" fill="#60A5FA" font-family="monospace" font-size="17">scalable</text>
+  <path d="M868 274H1230" stroke="#3F3F46"/>
+  <text x="868" y="314" fill="#FAFAFA" font-family="monospace" font-size="17">delivery</text>
+  <text x="1120" y="314" fill="#60A5FA" font-family="monospace" font-size="17">reliable</text>
+  <path d="M868 336H1230" stroke="#3F3F46"/>
+
+  <rect x="868" y="382" width="362" height="52" rx="4" fill="#2563EB"/>
+  <text x="1049" y="414" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="2">FROM IDEA → PRODUCTION</text>
+  <rect x="0.75" y="0.75" width="1278.5" height="478.5" rx="23.25" stroke="#E4E4E7" stroke-width="1.5"/>
+</svg>

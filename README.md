@@ -1,142 +1,110 @@
 <div align="center">
 
-<img src="assets/profile-banner.svg" alt="Vivek Kumar — Full-Stack Engineer and Product Builder" width="100%" />
+<img src="assets/hero.svg" width="100%" alt="Vivek Kumar — Full-Stack Engineer and Product Builder" />
 
-<h3>Engineering useful products from first commit to production.</h3>
+<br />
 
-<p>
-  <a href="https://portfolio-react-one-orcin.vercel.app"><strong>Portfolio</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/vivek-kumar-2055211a6"><strong>LinkedIn</strong></a>
-  &nbsp;·&nbsp;
-  <a href="mailto:vivekkumarprince1@gmail.com"><strong>Email</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://leetcode.com/u/q5lq9sHvTw/"><strong>LeetCode</strong></a>
-</p>
-
-<p><code>FULL STACK</code> &nbsp; <code>DISTRIBUTED SYSTEMS</code> &nbsp; <code>DEVOPS</code> &nbsp; <code>PRODUCT ENGINEERING</code></p>
+<a href="https://portfolio-react-one-orcin.vercel.app"><b>PORTFOLIO</b></a>
+&nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/vivek-kumar-2055211a6"><b>LINKEDIN</b></a>
+&nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp;
+<a href="mailto:vivekkumarprince1@gmail.com"><b>EMAIL</b></a>
+&nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp;
+<a href="https://leetcode.com/u/q5lq9sHvTw/"><b>LEETCODE</b></a>
 
 </div>
 
----
-
-## Profile
-
-I'm a Computer Science engineer from **UIET, Panjab University** who builds complete digital products—not isolated demos. My work spans product design, frontend systems, backend architecture, databases, payments, cloud delivery, and production operations.
-
-<table>
-<tr>
-<td width="25%"><strong>Currently building</strong></td>
-<td>FMPG and scalable API infrastructure</td>
-</tr>
-<tr>
-<td><strong>Core strengths</strong></td>
-<td>Full-stack delivery, backend systems, DevOps, product ownership</td>
-</tr>
-<tr>
-<td><strong>Learning next</strong></td>
-<td>Platform engineering, GitOps, cloud architecture, AI-enabled systems</td>
-</tr>
-<tr>
-<td><strong>Open to</strong></td>
-<td>Software engineering roles and ambitious product collaborations</td>
-</tr>
-</table>
-
-## Featured engineering
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [wApi](https://github.com/Vivekkumarprince1/wApi)
-
-Production-oriented WhatsApp API platform built as a multi-app, multi-service system.
-
-<code>TypeScript</code> <code>Microservices</code> <code>Docker</code> <code>Kubernetes</code> <code>CI/CD</code>
-
-</td>
-<td width="50%" valign="top">
-
-### [FMPG](https://github.com/Vivekkumarprince1/fmpg)
-
-Accommodation discovery and booking platform with customer, owner, payment, and admin workflows.
-
-<code>Node.js</code> <code>Express</code> <code>MongoDB</code> <code>Razorpay</code> <code>Cloudinary</code>
-
-**[Open live product →](https://fmpg.vercel.app)**
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Career at FMPG](https://github.com/Vivekkumarprince1/career.fmpg)
-
-Focused recruitment experience for discovering opportunities and applying to roles at FMPG.
-
-<code>MongoDB</code> <code>Express</code> <code>React</code> <code>Node.js</code>
-
-**[Open live product →](https://career-fmpg.vercel.app)**
-
-</td>
-<td width="50%" valign="top">
-
-### [Vaani](https://github.com/Vivekkumarprince1/vaani)
-
-Full-stack communication product with independently structured client and server applications.
-
-<code>React</code> <code>Node.js</code> <code>Express</code> <code>MongoDB</code>
-
-**[Open live product →](https://react-vaani-frontend.vercel.app)**
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><strong>More infrastructure work</strong></summary>
 <br />
 
-**[ConnectSphere GitOps](https://github.com/Vivekkumarprince1/connectsphere-gitops)** — declarative deployment configuration and environment automation using Kubernetes, Helm, and GitOps workflows.
+## I build the whole product.
+
+Not just the screen. Not just the endpoint. I work across product thinking, interface design, backend architecture, data, integrations, infrastructure, and delivery to turn practical ideas into software people can use.
+
+Based in **Chandigarh, India** · Computer Science, **UIET Panjab University** · Open to **software engineering opportunities**
+
+---
+
+## Selected work
+
+### 01 — [wApi](https://github.com/Vivekkumarprince1/wApi)
+
+**Infrastructure for dependable WhatsApp communication at scale.**
+
+A production-oriented, multi-app and multi-service platform covering APIs, service boundaries, deployment configuration, and operational tooling.
+
+`TypeScript` &nbsp; `Microservices` &nbsp; `Docker` &nbsp; `Kubernetes` &nbsp; `CI/CD`
+
+---
+
+### 02 — [FMPG](https://github.com/Vivekkumarprince1/fmpg) &nbsp;·&nbsp; [LIVE PRODUCT ↗](https://fmpg.vercel.app)
+
+**One platform for discovering, managing, and booking accommodation.**
+
+End-to-end product with customer journeys, property-owner operations, role-based administration, payments, OTP flows, media delivery, analytics, and invoices.
+
+`Node.js` &nbsp; `Express` &nbsp; `MongoDB` &nbsp; `EJS` &nbsp; `Razorpay` &nbsp; `Cloudinary`
+
+---
+
+### 03 — [Career at FMPG](https://github.com/Vivekkumarprince1/career.fmpg) &nbsp;·&nbsp; [LIVE PRODUCT ↗](https://career-fmpg.vercel.app)
+
+**A focused recruitment experience for a growing product company.**
+
+Candidates can discover opportunities and apply through a responsive, purpose-built hiring flow.
+
+`React` &nbsp; `Node.js` &nbsp; `Express` &nbsp; `MongoDB`
+
+---
+
+### 04 — [Vaani](https://github.com/Vivekkumarprince1/vaani) &nbsp;·&nbsp; [LIVE PRODUCT ↗](https://react-vaani-frontend.vercel.app)
+
+**A full-stack communication product with a clean client/server boundary.**
+
+Built as independently structured frontend and backend applications for maintainable iteration and deployment.
+
+`React` &nbsp; `Node.js` &nbsp; `Express` &nbsp; `MongoDB`
+
+<details>
+<summary><b>05 — ConnectSphere GitOps / infrastructure project</b></summary>
+<br />
+
+[ConnectSphere GitOps](https://github.com/Vivekkumarprince1/connectsphere-gitops) contains declarative environment and deployment configuration built around Kubernetes, Helm, and GitOps workflows.
 
 </details>
 
-## Technical range
+<br />
 
-| Layer | Tools and technologies |
-| :--- | :--- |
-| **Languages** | JavaScript · TypeScript · C++ · HTML · CSS |
-| **Frontend** | React · Next.js · Tailwind CSS · responsive interfaces |
-| **Backend** | Node.js · Express · REST APIs · authentication · payments |
-| **Data** | MongoDB · Mongoose · MySQL |
-| **Delivery** | Docker · Kubernetes · GitHub Actions · Vercel · AWS · Linux |
-| **Workflow** | Git · Postman · Figma · CI/CD · GitOps |
+## Capabilities
 
-## How I approach engineering
+| 01 / PRODUCT | 02 / APPLICATION | 03 / PLATFORM |
+| :--- | :--- | :--- |
+| Product thinking | React & Next.js | Docker & Kubernetes |
+| Interface design | Node.js & Express | GitHub Actions & CI/CD |
+| User journeys | MongoDB & MySQL | AWS, Vercel & Linux |
+| Figma & responsive UI | REST APIs & integrations | GitOps & observability |
 
-```text
-Understand the user → define the system → build the smallest solid version
-        → test the critical paths → ship → observe → improve
-```
+<br />
 
-- **Product-aware:** technical decisions begin with the user problem.
-- **End-to-end:** I take ownership from interface details to deployment health.
-- **Pragmatic:** simple, readable systems come before unnecessary complexity.
-- **Production-minded:** security, performance, failure states, and maintainability matter.
+## The way I work
+
+<img src="assets/process.svg" width="100%" alt="Understand, design, build, ship, and improve" />
+
+<br />
+
+I prefer clear requirements, small dependable releases, readable systems, meaningful tests, and feedback from real usage. Security, performance, failure states, and maintainability are product features—not cleanup tasks.
 
 ---
 
 <div align="center">
 
-### Have a product worth building?
+## Let's build something useful.
 
-I'm available for software engineering opportunities and focused collaborations.
+For engineering roles, product collaborations, or an interesting technical conversation:
 
-**[Start a conversation](mailto:vivekkumarprince1@gmail.com)** &nbsp;·&nbsp; **[Connect on LinkedIn](https://www.linkedin.com/in/vivek-kumar-2055211a6)**
+### [vivekkumarprince1@gmail.com](mailto:vivekkumarprince1@gmail.com)
 
-<br />
+[LinkedIn](https://www.linkedin.com/in/vivek-kumar-2055211a6) &nbsp;·&nbsp; [Portfolio](https://portfolio-react-one-orcin.vercel.app) &nbsp;·&nbsp; [GitHub](https://github.com/Vivekkumarprince1)
 
-<sub>Designed to stay fast and reliable: no trackers, animated widgets, or third-party stats services.</sub>
+<sub>Fast by design. All visual assets live in this repository.</sub>
 
 </div>
