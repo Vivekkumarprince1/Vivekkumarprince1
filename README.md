@@ -1,122 +1,142 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg" width="100%" alt="Vivek Kumar — Full-Stack Engineer and Product Builder" />
+<img src="assets/profile-banner.svg" alt="Vivek Kumar — Full-Stack Engineer and Product Builder" width="100%" />
 
-<br />
+<h3>Engineering useful products from first commit to production.</h3>
 
-### Building dependable digital products, end to end.
+<p>
+  <a href="https://portfolio-react-one-orcin.vercel.app"><strong>Portfolio</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/vivek-kumar-2055211a6"><strong>LinkedIn</strong></a>
+  &nbsp;·&nbsp;
+  <a href="mailto:vivekkumarprince1@gmail.com"><strong>Email</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://leetcode.com/u/q5lq9sHvTw/"><strong>LeetCode</strong></a>
+</p>
 
-From polished interfaces to APIs, payments, infrastructure, and production delivery.
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-react-one-orcin.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vivek-kumar-2055211a6)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vivekkumarprince1@gmail.com)
+<p><code>FULL STACK</code> &nbsp; <code>DISTRIBUTED SYSTEMS</code> &nbsp; <code>DEVOPS</code> &nbsp; <code>PRODUCT ENGINEERING</code></p>
 
 </div>
 
 ---
 
-## About me
+## Profile
 
-I'm a Computer Science engineer from **UIET, Panjab University**, focused on building end-to-end products that solve practical problems. I enjoy working across the stack: designing user experiences, shaping backend architecture, integrating third-party services, and shipping applications to production.
+I'm a Computer Science engineer from **UIET, Panjab University** who builds complete digital products—not isolated demos. My work spans product design, frontend systems, backend architecture, databases, payments, cloud delivery, and production operations.
 
-| Now | Focus |
-| :--- | :--- |
-| **Building** | FMPG, a property discovery and accommodation-booking platform |
-| **Engineering** | Scalable APIs and multi-service systems with TypeScript, Node.js, Docker, and Kubernetes |
-| **Exploring** | Platform engineering, GitOps, cloud infrastructure, and AI-enabled products |
-| **Practising** | Data structures, algorithms, and competitive problem solving |
-| **Available for** | Software engineering roles and meaningful product collaborations |
+<table>
+<tr>
+<td width="25%"><strong>Currently building</strong></td>
+<td>FMPG and scalable API infrastructure</td>
+</tr>
+<tr>
+<td><strong>Core strengths</strong></td>
+<td>Full-stack delivery, backend systems, DevOps, product ownership</td>
+</tr>
+<tr>
+<td><strong>Learning next</strong></td>
+<td>Platform engineering, GitOps, cloud architecture, AI-enabled systems</td>
+</tr>
+<tr>
+<td><strong>Open to</strong></td>
+<td>Software engineering roles and ambitious product collaborations</td>
+</tr>
+</table>
 
-## Selected work
+## Featured engineering
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### [wApi](https://github.com/Vivekkumarprince1/wApi)
 
-Production-oriented WhatsApp API platform organized as a multi-app, multi-service codebase.
+Production-oriented WhatsApp API platform built as a multi-app, multi-service system.
 
-`TypeScript` · `Microservices` · `Docker` · `Kubernetes` · `CI/CD`
+<code>TypeScript</code> <code>Microservices</code> <code>Docker</code> <code>Kubernetes</code> <code>CI/CD</code>
 
-### [FMPG](https://github.com/Vivekkumarprince1/fmpg) · [View live product](https://fmpg.vercel.app)
+</td>
+<td width="50%" valign="top">
 
-Property discovery and booking platform with complete customer, property-owner, and admin workflows.
+### [FMPG](https://github.com/Vivekkumarprince1/fmpg)
 
-`Node.js` · `Express` · `MongoDB` · `EJS` · `Razorpay` · `Cloudinary`
+Accommodation discovery and booking platform with customer, owner, payment, and admin workflows.
 
-### [Career at FMPG](https://github.com/Vivekkumarprince1/career.fmpg) · [View live product](https://career-fmpg.vercel.app)
+<code>Node.js</code> <code>Express</code> <code>MongoDB</code> <code>Razorpay</code> <code>Cloudinary</code>
 
-Dedicated hiring experience for discovering opportunities and applying to roles at FMPG.
+**[Open live product →](https://fmpg.vercel.app)**
 
-`MongoDB` · `Express` · `React` · `Node.js` · `Responsive UI`
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### [Vaani](https://github.com/Vivekkumarprince1/vaani) · [View live product](https://react-vaani-frontend.vercel.app)
+### [Career at FMPG](https://github.com/Vivekkumarprince1/career.fmpg)
+
+Focused recruitment experience for discovering opportunities and applying to roles at FMPG.
+
+<code>MongoDB</code> <code>Express</code> <code>React</code> <code>Node.js</code>
+
+**[Open live product →](https://career-fmpg.vercel.app)**
+
+</td>
+<td width="50%" valign="top">
+
+### [Vaani](https://github.com/Vivekkumarprince1/vaani)
 
 Full-stack communication product with independently structured client and server applications.
 
-`React` · `Node.js` · `Express` · `MongoDB`
+<code>React</code> <code>Node.js</code> <code>Express</code> <code>MongoDB</code>
 
-### [ConnectSphere GitOps](https://github.com/Vivekkumarprince1/connectsphere-gitops)
+**[Open live product →](https://react-vaani-frontend.vercel.app)**
 
-Declarative deployment configuration and environment automation for ConnectSphere.
+</td>
+</tr>
+</table>
 
-`GitOps` · `Kubernetes` · `Helm` · `Infrastructure automation`
+<details>
+<summary><strong>More infrastructure work</strong></summary>
+<br />
 
-## Engineering toolkit
+**[ConnectSphere GitOps](https://github.com/Vivekkumarprince1/connectsphere-gitops)** — declarative deployment configuration and environment automation using Kubernetes, Helm, and GitOps workflows.
 
-<div align="center">
+</details>
 
-**Languages**
+## Technical range
 
-![JavaScript](https://img.shields.io/badge/JavaScript-18181B?style=flat-square&logo=javascript)
-![TypeScript](https://img.shields.io/badge/TypeScript-18181B?style=flat-square&logo=typescript)
-![C++](https://img.shields.io/badge/C++-18181B?style=flat-square&logo=cplusplus)
-![HTML5](https://img.shields.io/badge/HTML5-18181B?style=flat-square&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-18181B?style=flat-square&logo=css3)
+| Layer | Tools and technologies |
+| :--- | :--- |
+| **Languages** | JavaScript · TypeScript · C++ · HTML · CSS |
+| **Frontend** | React · Next.js · Tailwind CSS · responsive interfaces |
+| **Backend** | Node.js · Express · REST APIs · authentication · payments |
+| **Data** | MongoDB · Mongoose · MySQL |
+| **Delivery** | Docker · Kubernetes · GitHub Actions · Vercel · AWS · Linux |
+| **Workflow** | Git · Postman · Figma · CI/CD · GitOps |
 
-**Frontend & Backend**
+## How I approach engineering
 
-![React](https://img.shields.io/badge/React-18181B?style=flat-square&logo=react)
-![Next.js](https://img.shields.io/badge/Next.js-18181B?style=flat-square&logo=nextdotjs)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-18181B?style=flat-square&logo=tailwindcss)
-![Node.js](https://img.shields.io/badge/Node.js-18181B?style=flat-square&logo=nodedotjs)
-![Express](https://img.shields.io/badge/Express-18181B?style=flat-square&logo=express)
-![MongoDB](https://img.shields.io/badge/MongoDB-18181B?style=flat-square&logo=mongodb)
-![MySQL](https://img.shields.io/badge/MySQL-18181B?style=flat-square&logo=mysql)
+```text
+Understand the user → define the system → build the smallest solid version
+        → test the critical paths → ship → observe → improve
+```
 
-**Cloud & Delivery**
+- **Product-aware:** technical decisions begin with the user problem.
+- **End-to-end:** I take ownership from interface details to deployment health.
+- **Pragmatic:** simple, readable systems come before unnecessary complexity.
+- **Production-minded:** security, performance, failure states, and maintainability matter.
 
-![Docker](https://img.shields.io/badge/Docker-18181B?style=flat-square&logo=docker)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-18181B?style=flat-square&logo=kubernetes)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-18181B?style=flat-square&logo=githubactions)
-![AWS](https://img.shields.io/badge/AWS-18181B?style=flat-square&logo=amazonwebservices)
-![Vercel](https://img.shields.io/badge/Vercel-18181B?style=flat-square&logo=vercel)
-![Linux](https://img.shields.io/badge/Linux-18181B?style=flat-square&logo=linux)
-
-</div>
-
-## GitHub activity
+---
 
 <div align="center">
 
-<a href="https://github.com/Vivekkumarprince1">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Vivekkumarprince1&amp;show_icons=true&amp;hide_border=true&amp;rank_icon=github&amp;theme=transparent&amp;title_color=2563eb&amp;icon_color=2563eb&amp;text_color=64748b" alt="Vivek Kumar's GitHub statistics" />
-</a>
-<a href="https://github.com/Vivekkumarprince1?tab=repositories">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vivekkumarprince1&amp;layout=compact&amp;hide_border=true&amp;theme=transparent&amp;title_color=2563eb&amp;text_color=64748b" alt="Most used languages across Vivek Kumar's public repositories" />
-</a>
+### Have a product worth building?
 
-</div>
+I'm available for software engineering opportunities and focused collaborations.
 
-> I care about maintainable systems, thoughtful user experiences, and shipping work that creates measurable value.
+**[Start a conversation](mailto:vivekkumarprince1@gmail.com)** &nbsp;·&nbsp; **[Connect on LinkedIn](https://www.linkedin.com/in/vivek-kumar-2055211a6)**
 
-## Let's connect
+<br />
 
-If you're building a useful product, hiring for a software engineering role, or want to collaborate on an ambitious idea, I'd be glad to talk.
+<sub>Designed to stay fast and reliable: no trackers, animated widgets, or third-party stats services.</sub>
 
-- **Email:** [vivekkumarprince1@gmail.com](mailto:vivekkumarprince1@gmail.com)
-- **LinkedIn:** [linkedin.com/in/vivek-kumar-2055211a6](https://www.linkedin.com/in/vivek-kumar-2055211a6)
-- **LeetCode:** [q5lq9sHvTw](https://leetcode.com/u/q5lq9sHvTw/)
-- **X:** [@Vivekra90835697](https://x.com/Vivekra90835697)
-
-<div align="center">
-  <sub>Building with curiosity, ownership, and attention to detail.</sub>
 </div>
