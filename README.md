@@ -1,10 +1,12 @@
 <div align="center">
 
-# Vivek Kumar
+<img src="./assets/profile-banner.svg" width="100%" alt="Vivek Kumar — Full-Stack Engineer and Product Builder" />
 
-### Full-Stack Engineer · Product Builder · Open-Source Explorer
+<br />
 
-I build reliable web products—from polished interfaces to APIs, payments, infrastructure, and production deployments.
+### Building dependable digital products, end to end.
+
+From polished interfaces to APIs, payments, infrastructure, and production delivery.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-react-one-orcin.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vivek-kumar-2055211a6)
@@ -18,21 +20,45 @@ I build reliable web products—from polished interfaces to APIs, payments, infr
 
 I'm a Computer Science engineer from **UIET, Panjab University**, focused on building end-to-end products that solve practical problems. I enjoy working across the stack: designing user experiences, shaping backend architecture, integrating third-party services, and shipping applications to production.
 
-- Building **FMPG**, a property discovery and accommodation-booking platform
-- Developing scalable APIs and multi-service systems with TypeScript, Node.js, Docker, and Kubernetes
-- Exploring platform engineering, GitOps, cloud infrastructure, and AI-enabled products
-- Strengthening problem-solving fundamentals through data structures and algorithms
-- Open to software engineering roles and meaningful product collaborations
+| Now | Focus |
+| :--- | :--- |
+| **Building** | FMPG, a property discovery and accommodation-booking platform |
+| **Engineering** | Scalable APIs and multi-service systems with TypeScript, Node.js, Docker, and Kubernetes |
+| **Exploring** | Platform engineering, GitOps, cloud infrastructure, and AI-enabled products |
+| **Practising** | Data structures, algorithms, and competitive problem solving |
+| **Available for** | Software engineering roles and meaningful product collaborations |
 
 ## Selected work
 
-| Project | What it does | Engineering focus |
-| :--- | :--- | :--- |
-| [**wApi**](https://github.com/Vivekkumarprince1/wApi) | A production-oriented WhatsApp API platform organized as a multi-app, multi-service codebase. | TypeScript, microservices, Docker, Kubernetes, CI/CD |
-| [**FMPG**](https://github.com/Vivekkumarprince1/fmpg) · [Live](https://fmpg.vercel.app) | Property discovery and booking platform with customer, owner, and admin workflows. | Node.js, Express, MongoDB, EJS, payments, OTP, Cloudinary |
-| [**Career at FMPG**](https://github.com/Vivekkumarprince1/career.fmpg) · [Live](https://career-fmpg.vercel.app) | A dedicated hiring experience for discovering and applying to opportunities at FMPG. | MERN stack, recruitment workflows, responsive UI |
-| [**Vaani**](https://github.com/Vivekkumarprince1/vaani) · [Live](https://react-vaani-frontend.vercel.app) | A full-stack communication product with separately structured client and server applications. | React, Node.js, Express, MongoDB |
-| [**ConnectSphere GitOps**](https://github.com/Vivekkumarprince1/connectsphere-gitops) | Declarative deployment configuration and environment automation for ConnectSphere. | GitOps, Kubernetes, Helm, infrastructure automation |
+### [wApi](https://github.com/Vivekkumarprince1/wApi)
+
+Production-oriented WhatsApp API platform organized as a multi-app, multi-service codebase.
+
+`TypeScript` · `Microservices` · `Docker` · `Kubernetes` · `CI/CD`
+
+### [FMPG](https://github.com/Vivekkumarprince1/fmpg) · [View live product](https://fmpg.vercel.app)
+
+Property discovery and booking platform with complete customer, property-owner, and admin workflows.
+
+`Node.js` · `Express` · `MongoDB` · `EJS` · `Razorpay` · `Cloudinary`
+
+### [Career at FMPG](https://github.com/Vivekkumarprince1/career.fmpg) · [View live product](https://career-fmpg.vercel.app)
+
+Dedicated hiring experience for discovering opportunities and applying to roles at FMPG.
+
+`MongoDB` · `Express` · `React` · `Node.js` · `Responsive UI`
+
+### [Vaani](https://github.com/Vivekkumarprince1/vaani) · [View live product](https://react-vaani-frontend.vercel.app)
+
+Full-stack communication product with independently structured client and server applications.
+
+`React` · `Node.js` · `Express` · `MongoDB`
+
+### [ConnectSphere GitOps](https://github.com/Vivekkumarprince1/connectsphere-gitops)
+
+Declarative deployment configuration and environment automation for ConnectSphere.
+
+`GitOps` · `Kubernetes` · `Helm` · `Infrastructure automation`
 
 ## Engineering toolkit
 
