@@ -89,9 +89,9 @@
     <rect x="0" y="0" width="374" height="3" rx="1.5" fill="#0284C7"/>
     
     <text x="20" y="28" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">API ARCHITECTURE</text>
-    <text x="20" y="74" class="stats-num" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800" letter-spacing="-1">180+ APIs</text>
-    <text x="20" y="102" class="stats-label" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">70+ Models · Multi-Tenant</text>
-    <text x="20" y="124" class="stats-sub" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">ConnectSphere isolated tenant workflows</text>
+    <text x="20" y="74" class="stats-num" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800" letter-spacing="-1">100%</text>
+    <text x="20" y="102" class="stats-label" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">REST APIs &amp; JWT RBAC</text>
+    <text x="20" y="124" class="stats-sub" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Modular full-stack backend services &amp; schemas</text>
   </g>
 
   <!-- Tile 3: Realtime Latency -->
@@ -129,14 +129,14 @@
     <text x="20" y="124" class="stats-sub" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">LeetCode &amp; GFG · Trees, Graphs, DP</text>
   </g>
 
-  <!-- Tile 6: Gemini AI Resolution -->
+  <!-- Tile 6: Rental & Booking Engine -->
   <g transform="translate(856, 268)">
     <rect width="374" height="142" rx="12" class="stats-card" stroke-width="1.2"/>
     <rect x="0" y="0" width="374" height="3" rx="1.5" fill="#DB2777"/>
     
-    <text x="20" y="28" fill="#DB2777" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">AI AUTOMATION</text>
-    <text x="20" y="74" class="stats-num" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800" letter-spacing="-1">90%+</text>
-    <text x="20" y="102" class="stats-label" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Automated Bot Resolution</text>
-    <text x="20" y="124" class="stats-sub" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Gemini AI multi-turn conversational engine</text>
+    <text x="20" y="28" fill="#DB2777" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">PRODUCT PLATFORMS</text>
+    <text x="20" y="74" class="stats-num" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800" letter-spacing="-1">100+</text>
+    <text x="20" y="102" class="stats-label" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Live Properties &amp; Orders</text>
+    <text x="20" y="124" class="stats-sub" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">FMPG platform with automated booking flows</text>
   </g>
 </svg>

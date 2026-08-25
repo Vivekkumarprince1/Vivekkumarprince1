@@ -28,7 +28,7 @@
 
 ## ⚡ Executive Summary
 
-I am a **Software Engineer & Systems Architect** focused on designing, building, and operating high-throughput backend systems, real-time media pipelines, and scalable full-stack products. From low-level C++ network edge routing to distributed multi-tenant cloud platforms, I engineer systems that are fast by design, resilient under load, and maintainable in production.
+I am a **Software Engineer & Systems Architect** focused on designing, building, and operating high-throughput backend systems, real-time media pipelines, and scalable full-stack products. From low-level C++ network edge routing to distributed cloud platforms, I engineer systems that are fast by design, resilient under load, and maintainable in production.
 
 - 📍 **Location:** Chandigarh, India
 - 🎓 **Education:** Computer Science & Engineering, **UIET Panjab University**
@@ -87,28 +87,17 @@ I am a **Software Engineer & Systems Architect** focused on designing, building,
 
 ## 💼 Professional Experience & Internships
 
-### 🏢 Software Engineering Intern · [ConnectSphere](https://connectsphere-customer-vivek.eastus.cloudapp.azure.com) *(Feb 2026 – Present)*
-> **Multi-tenant cloud platform powering automated enterprise WhatsApp messaging, conversational AI, and real-time workflows at scale.**
->
-> 🔗 **[Live Platform ↗](https://connectsphere-customer-vivek.eastus.cloudapp.azure.com)** &nbsp;|&nbsp; 📁 **[Repository ↗](https://github.com/Vivekkumarprince1/connectsphere)** &nbsp;|&nbsp; ☸️ **[GitOps Repo ↗](https://github.com/Vivekkumarprince1/connectsphere-gitops)**
-
-- **180+ Production REST APIs & 70+ DB Models:** Engineered modular microservices across multi-tenant boundaries with tenant data isolation, Google OAuth SSO, and Role-Based Access Control (RBAC).
-- **Gemini AI Conversational Engine:** Developed an intelligent AI chatbot resolving **90%+ of inbound customer inquiries** with dynamic context prompts, visual workflows, and agent takeover.
-- **Redis Webhook Pipeline:** Architected high-throughput Redis OTP and webhook event ingestion processing with response latency **under 200 ms**.
-- **Financial Ledger:** Implemented double-entry, transaction-safe wallet ledger with ACID transactions for message credit billing.
-- **Tech Stack:** `TypeScript` · `Next.js 14` · `Node.js` · `Express` · `MongoDB` · `Redis` · `Socket.IO` · `Docker` · `Kubernetes`
-
----
-
 ### 🏢 SDE Intern · [OM Software](https://careers.omsoftwares.in/) *(Jun 2025 – Sep 2025)*
-- Built full-stack **recruitment career portal** serving **500+ monthly active users** with applicant tracking, hiring pipelines, and centralized admin panels.
-- Implemented **AI-assisted resume parsing** to prefill application profiles in **under 2 seconds**, reducing manual HR data entry by **60%**.
+- Built a full-stack **recruitment career portal** serving **500+ monthly active users** with job listings, hiring pipelines, applicant tracking, and centralized admin controls.
+- Implemented **AI-assisted resume parsing** to prefill applications in under **2 seconds** and automated certificate/offer-letter generation, reducing HR data-entry work by nearly **60%**.
+- **Tech Stack:** `React.js` · `Node.js` · `Express.js` · `MongoDB`
 
 ---
 
 ### 🏢 Backend Intern · Coding Bits Pvt Ltd *(Jan 2024 – Jun 2024)*
-- Engineered **15+ production REST APIs** with JWT authentication, RBAC, input validation, and centralized error middleware.
-- Optimized database indexing and aggregation pipelines to improve response speeds by **30%**.
+- Engineered **15+ production-grade REST APIs** with JWT authentication, Role-Based Access Control (RBAC), request validation, and centralized error handling for secure backend workflows.
+- Improved API response performance by nearly **30%** using MongoDB indexing and aggregation pipelines while delivering **8+ backend modules** from schema design to deployment.
+- **Tech Stack:** `Node.js` · `Express.js` · `MongoDB`
 
 ---
 
@@ -134,11 +123,11 @@ I am a **Software Engineer & Systems Architect** focused on designing, building,
 
 | Engineering Layer | Core Capabilities & Competencies | Applied Systems / Implementations |
 | :--- | :--- | :--- |
-| **Distributed Systems** | Microservices decoupling, GeoIP routing, Edge failover, Bounded worker pools | [Simple CDN](https://github.com/Vivekkumarprince1/simple-cdn), [ConnectSphere](https://github.com/Vivekkumarprince1/connectsphere) |
+| **Distributed Systems** | Microservices decoupling, GeoIP routing, Edge failover, Bounded worker pools | [Simple CDN](https://github.com/Vivekkumarprince1/simple-cdn) |
 | **Real-Time Communication** | WebRTC mesh/signaling, Socket.IO, VAD silence stripping, Sub-500ms audio translation | [Vaani Platform](https://github.com/Vivekkumarprince1/vaani) |
-| **Cloud & Multi-Tenancy** | Tenant data isolation, 180+ REST APIs, Redis rate limiting, Webhook queues, Double-entry ledgers | [ConnectSphere](https://github.com/Vivekkumarprince1/connectsphere) |
-| **Data & Storage Engineering** | Compound index optimization, Aggregation pipelines, ACID transactions, Redis TTL caching | [ConnectSphere](https://github.com/Vivekkumarprince1/connectsphere), [FMPG](https://github.com/Vivekkumarprince1/fmpg1) |
-| **DevOps & Infrastructure** | Declarative Kubernetes Helm charts, Automated CI/CD pipelines, Docker containerization | [ConnectSphere GitOps](https://github.com/Vivekkumarprince1/connectsphere-gitops) |
+| **Full-Stack Platforms** | Dual-role RBAC, Rate limiting, Payment webhooks, Booking automation, Media CDNs | [FMPG Platform](https://github.com/Vivekkumarprince1/fmpg1) |
+| **Data & Storage Engineering** | Compound index optimization, Aggregation pipelines, ACID transactions, Redis TTL caching | [FMPG](https://github.com/Vivekkumarprince1/fmpg1), [Vaani](https://github.com/Vivekkumarprince1/vaani) |
+| **DevOps & Infrastructure** | Declarative containerization, CI/CD pipelines, Docker environments, Cloud deployments | [Simple CDN](https://github.com/Vivekkumarprince1/simple-cdn), [Vaani](https://github.com/Vivekkumarprince1/vaani) |
 
 ---
 

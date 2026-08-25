@@ -157,7 +157,7 @@
   <g transform="translate(68, 208)">
     <rect width="570" height="34" rx="8" class="code-bg" fill-opacity="0.8" stroke-width="1"/>
     <text x="14" y="22" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600" xml:space="preserve">
-      <tspan fill="#6366F1">struct</tspan> <tspan fill="#38BDF8">SystemsEngineer</tspan> { <tspan fill="#94A3B8">scale:</tspan> <tspan fill="#34D399">"180+ APIs"</tspan>, <tspan fill="#94A3B8">latency:</tspan> <tspan fill="#F59E0B">"&lt;32ms"</tspan>, <tspan fill="#94A3B8">k8s:</tspan> <tspan fill="#A78BFA">true</tspan> }
+      <tspan fill="#6366F1">struct</tspan> <tspan fill="#38BDF8">SystemsEngineer</tspan> { <tspan fill="#94A3B8">scale:</tspan> <tspan fill="#34D399">"High Throughput"</tspan>, <tspan fill="#94A3B8">latency:</tspan> <tspan fill="#F59E0B">"&lt;32ms"</tspan>, <tspan fill="#94A3B8">k8s:</tspan> <tspan fill="#A78BFA">true</tspan> }
     </text>
   </g>
 
@@ -214,7 +214,7 @@
       <path d="M 124 90 H 168" stroke="#6366F1" stroke-width="2" class="packet-stream"/>
       
       <!-- Gateway to Microservices -->
-      <!-- Path to ConnectSphere (Top) -->
+      <!-- Path to FMPG (Top) -->
       <path d="M 208 90 C 230 90, 230 42, 254 42" stroke="#0284C7" stroke-width="1.5" class="packet-stream"/>
       <!-- Path to Vaani WebRTC (Middle) -->
       <path d="M 208 90 H 254" stroke="#10B981" stroke-width="1.5" class="packet-stream"/>
@@ -250,12 +250,12 @@
         <text x="20" y="46" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" text-anchor="middle">GATEWAY</text>
       </g>
 
-      <!-- Node 4: ConnectSphere (Internship / Enterprise Engine) -->
+      <!-- Node 4: FMPG Platform Engine (Top) -->
       <g transform="translate(254, 24)">
         <rect width="100" height="34" rx="6" fill="#042F2E" stroke="#0D9488" stroke-width="1.5"/>
         <circle cx="12" cy="17" r="3" fill="#2DD4BF"/>
-        <text x="20" y="16" fill="#5EEAD4" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">ConnectSphere</text>
-        <text x="20" y="27" fill="#99F6E4" font-family="'JetBrains Mono', monospace" font-size="8">SDE Intern · 180+ APIs</text>
+        <text x="20" y="16" fill="#5EEAD4" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">FMPG Platform</text>
+        <text x="20" y="27" fill="#99F6E4" font-family="'JetBrains Mono', monospace" font-size="8">Rental &amp; Payments</text>
       </g>
 
       <!-- Node 5: Vaani WebRTC Stream (Middle) -->
