@@ -92,7 +92,7 @@ I am a **Software Engineer & Systems Architect** focused on designing, building,
 
 <div align="center">
 
-<!-- Custom Dark Mode Technical Capabilities Banner -->
+<!-- Custom Dual-Theme Technical Capabilities Matrix -->
 <img src="https://raw.githubusercontent.com/Vivekkumarprince1/Vivekkumarprince1/main/assets/skills.svg" width="100%" alt="Vivek Kumar - Technical Arsenal & Capabilities" />
 
 <br /><br />
@@ -122,20 +122,17 @@ I am a **Software Engineer & Systems Architect** focused on designing, building,
 
 <div align="center">
 
-<!-- In-Repo Deterministic Telemetry & Problem Solving Banner -->
-<img src="https://raw.githubusercontent.com/Vivekkumarprince1/Vivekkumarprince1/main/assets/stats.svg" width="100%" alt="Engineering Metrics & Telemetry" />
+<!-- Expanded 6-Tile Engineering Telemetry HUD -->
+<img src="https://raw.githubusercontent.com/Vivekkumarprince1/Vivekkumarprince1/main/assets/stats.svg" width="100%" alt="Vivek Kumar - Production Metrics & Engineering Benchmarks" />
 
 <br /><br />
 
-<table border="0" align="center">
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Vivekkumarprince1">
-        <img src="https://streak-stats.demolab.com/?user=Vivekkumarprince1&theme=tokyonight&hide_border=true&background=0B0F19&ring=3B82F6&fire=38BDF8&currStreakLabel=60A5FA" alt="GitHub Streak" height="195" />
-      </a>
-    </td>
-  </tr>
-</table>
+<!-- Contribution Snake Animation (Dual Dark/Light Picture Element) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vivekkumarprince1/Vivekkumarprince1/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vivekkumarprince1/Vivekkumarprince1/output/github-contribution-grid-snake-light.svg">
+  <img src="https://raw.githubusercontent.com/Vivekkumarprince1/Vivekkumarprince1/main/assets/snake.svg" width="100%" alt="GitHub Contribution Snake Animation" />
+</picture>
 
 </div>
 

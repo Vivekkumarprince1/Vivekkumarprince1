@@ -1,0 +1,528 @@
+<svg width="100%" height="auto" viewBox="0 0 850 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub Contribution Grid Snake Game">
+  <defs>
+    <linearGradient id="snakeCardDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="100%" stop-color="#03060B"/>
+    </linearGradient>
+    <linearGradient id="snakeCardLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+
+    <style>
+      @keyframes snakeCrawl {
+        0% { transform: translate(0px, 0px); }
+        25% { transform: translate(240px, 0px); }
+        50% { transform: translate(240px, 48px); }
+        75% { transform: translate(480px, 48px); }
+        100% { transform: translate(0px, 0px); }
+      }
+      @keyframes pulseFood {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(0.8); }
+      }
+      .snake-head { animation: snakeCrawl 12s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+      .food-dot { animation: pulseFood 1.5s ease-in-out infinite; transform-origin: center; }
+
+      .snake-bg { fill: url(#snakeCardDark); stroke: #1E293B; }
+      .cell-empty { fill: #161B22; }
+      .cell-1 { fill: #0E4429; }
+      .cell-2 { fill: #006D32; }
+      .cell-3 { fill: #26A641; }
+      .cell-4 { fill: #39D353; }
+      .snake-title { fill: #64748B; }
+
+      @media (prefers-color-scheme: light) {
+        .snake-bg { fill: url(#snakeCardLight); stroke: #CBD5E1; }
+        .cell-empty { fill: #EBEDF0; }
+        .cell-1 { fill: #9BE9A8; }
+        .cell-2 { fill: #40C463; }
+        .cell-3 { fill: #30A14E; }
+        .cell-4 { fill: #216E39; }
+        .snake-title { fill: #475569; }
+      }
+    </style>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="850" height="170" rx="14" class="snake-bg" stroke-width="1.2"/>
+
+  <!-- Header Info -->
+  <text x="24" y="24" class="snake-title" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">CONTRIBUTION_SNAKE // 770+ COMMITS EATEN</text>
+
+  <!-- Contribution Grid (Weeks 1 to 52) -->
+  <g transform="translate(24, 40)">
+    <!-- Week Columns -->
+    <!-- Simulated realistic commit grid -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-empty"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(16, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-empty"/>
+    </g>
+    <g transform="translate(32, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-1"/>
+    </g>
+    <g transform="translate(48, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(64, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-1"/>
+    </g>
+    <g transform="translate(80, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-3"/>
+    </g>
+    <g transform="translate(96, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-2"/>
+    </g>
+    <g transform="translate(112, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(128, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-3"/>
+    </g>
+    <g transform="translate(144, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+
+    <!-- Additional Weeks (filling grid) -->
+    <g transform="translate(160, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-2"/>
+    </g>
+    <g transform="translate(176, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-1"/>
+    </g>
+    <g transform="translate(192, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(208, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(224, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-3"/>
+    </g>
+    <g transform="translate(240, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(256, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-2"/>
+    </g>
+    <g transform="translate(272, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-1"/>
+    </g>
+    <g transform="translate(288, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(304, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(320, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-3"/>
+    </g>
+    <g transform="translate(336, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(352, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-2"/>
+    </g>
+    <g transform="translate(368, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-1"/>
+    </g>
+    <g transform="translate(384, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(400, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(416, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-3"/>
+    </g>
+    <g transform="translate(432, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(448, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-2"/>
+    </g>
+    <g transform="translate(464, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-1"/>
+    </g>
+    <g transform="translate(480, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(496, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(512, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-3"/>
+    </g>
+    <g transform="translate(528, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(544, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-2"/>
+    </g>
+    <g transform="translate(560, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-1"/>
+    </g>
+    <g transform="translate(576, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(592, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(608, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-3"/>
+    </g>
+    <g transform="translate(624, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(640, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-2"/>
+    </g>
+    <g transform="translate(656, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-1"/>
+    </g>
+    <g transform="translate(672, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(688, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(704, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-3"/>
+    </g>
+    <g transform="translate(720, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(736, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-2"/>
+    </g>
+    <g transform="translate(752, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-1"/>
+    </g>
+    <g transform="translate(768, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+    <g transform="translate(784, 0)">
+      <rect x="0" y="0" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="14" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="28" width="10" height="10" rx="2" class="cell-4"/>
+      <rect x="0" y="42" width="10" height="10" rx="2" class="cell-2"/>
+      <rect x="0" y="56" width="10" height="10" rx="2" class="cell-1"/>
+      <rect x="0" y="70" width="10" height="10" rx="2" class="cell-3"/>
+      <rect x="0" y="84" width="10" height="10" rx="2" class="cell-4"/>
+    </g>
+
+    <!-- Animated Snake Eating Dots -->
+    <g class="snake-head">
+      <!-- Snake Body Segments -->
+      <rect x="32" y="28" width="10" height="10" rx="2" fill="#0284C7"/>
+      <rect x="48" y="28" width="10" height="10" rx="2" fill="#38BDF8"/>
+      <rect x="64" y="28" width="10" height="10" rx="2" fill="#38BDF8"/>
+      <rect x="80" y="28" width="10" height="10" rx="2" fill="#60A5FA"/>
+      <!-- Snake Head with Eyes -->
+      <rect x="96" y="28" width="10" height="10" rx="3" fill="#93C5FD"/>
+      <circle cx="103" cy="31" r="1.5" fill="#030712"/>
+      <circle cx="103" cy="35" r="1.5" fill="#030712"/>
+    </g>
+
+    <!-- Pulsing Food Dot Target -->
+    <g class="food-dot">
+      <circle cx="373" cy="33" r="5" fill="#F59E0B"/>
+    </g>
+  </g>
+</svg>
