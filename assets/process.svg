@@ -1,103 +1,118 @@
-<svg width="1280" height="240" viewBox="0 0 1280 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Engineering Lifecycle: Architect, Build, Harden, Ship">
+<svg width="100%" height="auto" viewBox="0 0 1280 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Engineering Lifecycle: Architect, Build, Harden, Ship">
   <defs>
-    <linearGradient id="procBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Background Gradients -->
+    <linearGradient id="procBgDark" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0B0F19"/>
       <stop offset="100%" stop-color="#030712"/>
     </linearGradient>
+    <linearGradient id="procBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
 
-    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="cardGradDark" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#1E293B" stop-opacity="0.8"/>
       <stop offset="100%" stop-color="#0F172A" stop-opacity="0.9"/>
     </linearGradient>
-
-    <linearGradient id="cardGradActive" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#1E3A8A" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.9"/>
+    <linearGradient id="cardGradLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0.95"/>
     </linearGradient>
 
     <linearGradient id="pipeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3B82F6"/>
-      <stop offset="50%" stop-color="#60A5FA"/>
-      <stop offset="100%" stop-color="#10B981"/>
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#059669"/>
     </linearGradient>
 
-    <filter id="procGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
+    <style>
+      .proc-bg { fill: url(#procBgDark); stroke: #1E293B; }
+      .proc-card { fill: url(#cardGradDark); stroke: #334155; }
+      .proc-title { fill: #F8FAFC; }
+      .proc-body { fill: #94A3B8; }
+      .proc-line { stroke: #1E293B; }
+
+      @media (prefers-color-scheme: light) {
+        .proc-bg { fill: url(#procBgLight); stroke: #CBD5E1; }
+        .proc-card { fill: url(#cardGradLight); stroke: #CBD5E1; }
+        .proc-title { fill: #0F172A; }
+        .proc-body { fill: #334155; }
+        .proc-line { stroke: #E2E8F0; }
+      }
+    </style>
   </defs>
 
   <!-- Container Box -->
-  <rect width="1280" height="240" rx="16" fill="url(#procBg)" stroke="#1E293B" stroke-width="1.5"/>
+  <rect width="1280" height="240" rx="16" class="proc-bg" stroke-width="1.5"/>
 
   <!-- Connecting Pipeline Stream Line -->
   <path d="M 120 120 L 1160 120" stroke="url(#pipeGrad)" stroke-width="2" stroke-dasharray="6 6" opacity="0.6"/>
 
   <!-- Phase 1: Problem & System Design -->
   <g transform="translate(60, 36)">
-    <rect width="260" height="168" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
-    <rect x="16" y="16" width="32" height="32" rx="8" fill="#3B82F6" fill-opacity="0.2"/>
-    <text x="32" y="37" text-anchor="middle" fill="#60A5FA" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">01</text>
+    <rect width="260" height="168" rx="12" class="proc-card" stroke-width="1"/>
+    <rect x="16" y="16" width="32" height="32" rx="8" fill="#0284C7" fill-opacity="0.15"/>
+    <text x="32" y="37" text-anchor="middle" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">01</text>
     
-    <text x="60" y="32" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">PHASE 01</text>
-    <text x="60" y="46" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">System Design</text>
+    <text x="60" y="32" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">PHASE 01</text>
+    <text x="60" y="46" class="proc-title" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">System Design</text>
 
-    <line x1="16" y1="62" x2="244" y2="62" stroke="#1E293B" stroke-width="1"/>
+    <line x1="16" y1="62" x2="244" y2="62" class="proc-line" stroke-width="1"/>
 
-    <text x="16" y="86" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• Domain modeling &amp; schemas</text>
-    <text x="16" y="108" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• Latency &amp; SLA boundaries</text>
-    <text x="16" y="130" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• Service decoupling &amp; API specs</text>
-    <text x="16" y="152" fill="#60A5FA" font-family="'JetBrains Mono', monospace" font-size="11">&gt; Blueprint verified</text>
+    <text x="16" y="86" class="proc-body" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• Domain modeling &amp; schemas</text>
+    <text x="16" y="108" class="proc-body" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• Latency &amp; SLA boundaries</text>
+    <text x="16" y="130" class="proc-body" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• Service decoupling &amp; API specs</text>
+    <text x="16" y="152" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="11">&gt; Blueprint verified</text>
   </g>
 
   <!-- Phase 2: Core Engineering & Realtime -->
   <g transform="translate(356, 36)">
-    <rect width="260" height="168" rx="12" fill="url(#cardGradActive)" stroke="#3B82F6" stroke-width="1.2"/>
-    <rect x="16" y="16" width="32" height="32" rx="8" fill="#3B82F6" fill-opacity="0.4"/>
-    <text x="32" y="37" text-anchor="middle" fill="#93C5FD" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">02</text>
+    <rect width="260" height="168" rx="12" class="proc-card" stroke-width="1.2"/>
+    <rect x="16" y="16" width="32" height="32" rx="8" fill="#0284C7" fill-opacity="0.25"/>
+    <text x="32" y="37" text-anchor="middle" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">02</text>
     
-    <text x="60" y="32" fill="#93C5FD" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">PHASE 02</text>
-    <text x="60" y="46" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">High-Perf Code</text>
+    <text x="60" y="32" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">PHASE 02</text>
+    <text x="60" y="46" class="proc-title" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">High-Perf Code</text>
 
-    <line x1="16" y1="62" x2="244" y2="62" stroke="#1E3A8A" stroke-width="1"/>
+    <line x1="16" y1="62" x2="244" y2="62" class="proc-line" stroke-width="1"/>
 
-    <text x="16" y="86" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• TypeScript / C++ / Node.js</text>
-    <text x="16" y="108" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• Real-time WebRTC &amp; Sockets</text>
-    <text x="16" y="130" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• Redis caching &amp; task queues</text>
-    <text x="16" y="152" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="11">&gt; 32ms audio / 200ms API</text>
+    <text x="16" y="86" class="proc-body" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• TypeScript / C++ / Node.js</text>
+    <text x="16" y="108" class="proc-body" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• Real-time WebRTC &amp; Sockets</text>
+    <text x="16" y="130" class="proc-body" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• Redis caching &amp; task queues</text>
+    <text x="16" y="152" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="11">&gt; 32ms audio / 200ms API</text>
   </g>
 
   <!-- Phase 3: Reliability & Security -->
   <g transform="translate(652, 36)">
-    <rect width="260" height="168" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
-    <rect x="16" y="16" width="32" height="32" rx="8" fill="#F59E0B" fill-opacity="0.2"/>
-    <text x="32" y="37" text-anchor="middle" fill="#FBBF24" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">03</text>
+    <rect width="260" height="168" rx="12" class="proc-card" stroke-width="1"/>
+    <rect x="16" y="16" width="32" height="32" rx="8" fill="#D97706" fill-opacity="0.15"/>
+    <text x="32" y="37" text-anchor="middle" fill="#D97706" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">03</text>
     
-    <text x="60" y="32" fill="#FBBF24" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">PHASE 03</text>
-    <text x="60" y="46" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Harden &amp; Secure</text>
+    <text x="60" y="32" fill="#D97706" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">PHASE 03</text>
+    <text x="60" y="46" class="proc-title" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Harden &amp; Secure</text>
 
-    <line x1="16" y1="62" x2="244" y2="62" stroke="#1E293B" stroke-width="1"/>
+    <line x1="16" y1="62" x2="244" y2="62" class="proc-line" stroke-width="1"/>
 
-    <text x="16" y="86" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• RBAC &amp; JWT token rotation</text>
-    <text x="16" y="108" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• ACID ledger transactions</text>
-    <text x="16" y="130" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• Rate limiting &amp; sanitization</text>
-    <text x="16" y="152" fill="#FBBF24" font-family="'JetBrains Mono', monospace" font-size="11">&gt; Zero breach tolerance</text>
+    <text x="16" y="86" class="proc-body" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• RBAC &amp; JWT token rotation</text>
+    <text x="16" y="108" class="proc-body" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• ACID ledger transactions</text>
+    <text x="16" y="130" class="proc-body" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• Rate limiting &amp; sanitization</text>
+    <text x="16" y="152" fill="#D97706" font-family="'JetBrains Mono', monospace" font-size="11">&gt; Zero breach tolerance</text>
   </g>
 
   <!-- Phase 4: GitOps, CI/CD & Deploy -->
   <g transform="translate(948, 36)">
-    <rect width="260" height="168" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
-    <rect x="16" y="16" width="32" height="32" rx="8" fill="#10B981" fill-opacity="0.2"/>
-    <text x="32" y="37" text-anchor="middle" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">04</text>
+    <rect width="260" height="168" rx="12" class="proc-card" stroke-width="1"/>
+    <rect x="16" y="16" width="32" height="32" rx="8" fill="#059669" fill-opacity="0.15"/>
+    <text x="32" y="37" text-anchor="middle" fill="#059669" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">04</text>
     
-    <text x="60" y="32" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">PHASE 04</text>
-    <text x="60" y="46" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Ship &amp; Observe</text>
+    <text x="60" y="32" fill="#059669" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">PHASE 04</text>
+    <text x="60" y="46" class="proc-title" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Ship &amp; Observe</text>
 
-    <line x1="16" y1="62" x2="244" y2="62" stroke="#1E293B" stroke-width="1"/>
+    <line x1="16" y1="62" x2="244" y2="62" class="proc-line" stroke-width="1"/>
 
-    <text x="16" y="86" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• Docker &amp; Kubernetes Helm</text>
-    <text x="16" y="108" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• GitHub Actions CI/CD</text>
-    <text x="16" y="130" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• Telemetry &amp; Live Monitoring</text>
-    <text x="16" y="152" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="11">&gt; 99.9% availability</text>
+    <text x="16" y="86" class="proc-body" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• Docker &amp; Kubernetes Helm</text>
+    <text x="16" y="108" class="proc-body" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• GitHub Actions CI/CD</text>
+    <text x="16" y="130" class="proc-body" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">• Telemetry &amp; Live Monitoring</text>
+    <text x="16" y="152" fill="#059669" font-family="'JetBrains Mono', monospace" font-size="11">&gt; 99.9% availability</text>
   </g>
 </svg>

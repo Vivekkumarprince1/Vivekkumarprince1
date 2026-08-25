@@ -1,31 +1,30 @@
-<svg width="1280" height="440" viewBox="0 0 1280 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vivek Kumar - Software Engineer and Systems Architect">
+<svg width="100%" height="auto" viewBox="0 0 1280 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vivek Kumar - Software Engineer and Systems Architect">
   <defs>
-    <!-- Background Space Gradients -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Dark Mode Gradients -->
+    <linearGradient id="bgGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#060911"/>
-      <stop offset="35%" stop-color="#0A101D"/>
-      <stop offset="70%" stop-color="#080D18"/>
+      <stop offset="50%" stop-color="#0A101D"/>
       <stop offset="100%" stop-color="#03060B"/>
     </linearGradient>
 
-    <!-- Glassmorphic Card Gradients -->
-    <linearGradient id="glassCard" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.75"/>
-      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.9"/>
+    <!-- Light Mode Gradients -->
+    <linearGradient id="bgGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="50%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
     </linearGradient>
 
-    <linearGradient id="hudHeaderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#111827" stop-opacity="0.6"/>
+    <!-- Glassmorphic HUD Gradient -->
+    <linearGradient id="glassCardDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="glassCardLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0.95"/>
     </linearGradient>
 
-    <!-- Glowing Accent Gradients -->
-    <linearGradient id="heroTitleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="60%" stop-color="#F1F5F9"/>
-      <stop offset="100%" stop-color="#94A3B8"/>
-    </linearGradient>
-
+    <!-- Cyan/Blue Accent -->
     <linearGradient id="cyanBlueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38BDF8"/>
       <stop offset="50%" stop-color="#3B82F6"/>
@@ -34,35 +33,32 @@
 
     <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6"/>
-      <stop offset="30%" stop-color="#3B82F6" stop-opacity="0.2"/>
-      <stop offset="70%" stop-color="#8B5CF6" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.3"/>
       <stop offset="100%" stop-color="#10B981" stop-opacity="0.6"/>
     </linearGradient>
 
     <!-- Radial Glows -->
     <radialGradient id="radialCyan" cx="0%" cy="0%" r="100%">
       <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.16"/>
-      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.04"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
-
     <radialGradient id="radialGreen" cx="100%" cy="100%" r="100%">
       <stop offset="0%" stop-color="#10B981" stop-opacity="0.14"/>
-      <stop offset="60%" stop-color="#059669" stop-opacity="0.02"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- High-Tech Matrix & Grid Patterns -->
-    <pattern id="cyberGrid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <!-- Grid Patterns -->
+    <pattern id="gridDark" width="36" height="36" patternUnits="userSpaceOnUse">
       <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.4"/>
       <circle cx="36" cy="0" r="1.2" fill="#334155" opacity="0.6"/>
     </pattern>
-
-    <pattern id="dotPattern" width="18" height="18" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#334155" opacity="0.35"/>
+    <pattern id="gridLight" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#CBD5E1" stroke-width="0.7" stroke-opacity="0.5"/>
+      <circle cx="36" cy="0" r="1.2" fill="#94A3B8" opacity="0.6"/>
     </pattern>
 
     <style>
+      /* Animations */
       @keyframes radarPulse {
         0%, 100% { opacity: 1; transform: scale(1); }
         50% { opacity: 0.3; transform: scale(0.85); }
@@ -91,79 +87,105 @@
         100% { stroke-dashoffset: 0; }
       }
 
-      .radar-dot {
-        animation: radarPulse 2s ease-in-out infinite;
-        transform-origin: center;
+      .radar-dot { animation: radarPulse 2s ease-in-out infinite; transform-origin: center; }
+      .scan-line { stroke-dasharray: 80 200; animation: sweepScan 8s linear infinite; }
+      .packet-line { stroke-dasharray: 6 14; animation: packetFlow 3s linear infinite; }
+      .role-1 { animation: roleCycle1 9s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+      .role-2 { animation: roleCycle2 9s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+      .role-3 { animation: roleCycle3 9s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+
+      /* Default Dark Theme Classes */
+      .canvas-bg { fill: url(#bgGradDark); }
+      .canvas-grid { fill: url(#gridDark); }
+      .text-title { fill: #FFFFFF; }
+      .text-bio { fill: #94A3B8; }
+      .text-sub { fill: #64748B; }
+      .prompt-box { fill: #090D16; fill-opacity: 0.75; stroke: #1E293B; }
+      .pill-box { fill: #0B1120; stroke: #1E293B; }
+      .pill-text { fill: #E2E8F0; }
+      .hud-container { fill: url(#glassCardDark); stroke: #1E293B; }
+      .hud-header { fill: #1E293B; fill-opacity: 0.8; }
+      .hud-inner-box { fill: #090E17; stroke: #1E293B; }
+      .hud-text-white { fill: #F1F5F9; }
+      .hud-line { stroke: #1E293B; }
+      .circuit-line { stroke: #1E293B; }
+      .console-box { fill: #080D18; stroke: #3B82F6; }
+      .console-text-top { fill: #E2E8F0; }
+
+      /* Light Theme Overrides */
+      @media (prefers-color-scheme: light) {
+        .canvas-bg { fill: url(#bgGradLight); }
+        .canvas-grid { fill: url(#gridLight); }
+        .text-title { fill: #0F172A; }
+        .text-bio { fill: #334155; }
+        .text-sub { fill: #64748B; }
+        .prompt-box { fill: #FFFFFF; fill-opacity: 0.9; stroke: #CBD5E1; }
+        .pill-box { fill: #FFFFFF; stroke: #CBD5E1; }
+        .pill-text { fill: #1E293B; }
+        .hud-container { fill: url(#glassCardLight); stroke: #CBD5E1; }
+        .hud-header { fill: #F1F5F9; fill-opacity: 0.9; }
+        .hud-inner-box { fill: #F8FAFC; stroke: #E2E8F0; }
+        .hud-text-white { fill: #0F172A; }
+        .hud-line { stroke: #E2E8F0; }
+        .circuit-line { stroke: #CBD5E1; }
+        .console-box { fill: #EFF6FF; stroke: #2563EB; }
+        .console-text-top { fill: #1E40AF; }
       }
-      .scan-line {
-        stroke-dasharray: 80 200;
-        animation: sweepScan 8s linear infinite;
-      }
-      .packet-line {
-        stroke-dasharray: 6 14;
-        animation: packetFlow 3s linear infinite;
-      }
-      .role-1 { animation: roleCycle1 9s ease-in-out infinite; }
-      .role-2 { animation: roleCycle2 9s ease-in-out infinite; }
-      .role-3 { animation: roleCycle3 9s ease-in-out infinite; }
     </style>
   </defs>
 
-  <!-- Base Canvas & Glowing Ambient Backdrop -->
-  <rect width="1280" height="440" rx="18" fill="url(#bgGrad)"/>
-  <rect width="1280" height="440" rx="18" fill="url(#cyberGrid)"/>
+  <!-- Base Canvas -->
+  <rect width="1280" height="440" rx="18" class="canvas-bg"/>
+  <rect width="1280" height="440" rx="18" class="canvas-grid"/>
   <rect width="540" height="360" rx="18" fill="url(#radialCyan)"/>
   <rect x="740" y="80" width="540" height="360" rx="18" fill="url(#radialGreen)"/>
 
-  <!-- Geometric Ambient Lines & Circuit Accents -->
-  <path d="M 48 48 L 480 48 L 520 88 L 840 88" stroke="#1E293B" stroke-width="1.2" fill="none"/>
-  <path d="M 840 88 L 880 48 L 1232 48" stroke="#1E293B" stroke-width="1.2" fill="none"/>
+  <!-- Geometric Circuit Accents -->
+  <path d="M 48 48 L 480 48 L 520 88 L 840 88" class="circuit-line" stroke-width="1.2" fill="none"/>
+  <path d="M 840 88 L 880 48 L 1232 48" class="circuit-line" stroke-width="1.2" fill="none"/>
   <path d="M 48 48 L 480 48 L 520 88 L 840 88" stroke="url(#cyanBlueGrad)" stroke-width="1.5" fill="none" class="scan-line"/>
   
-  <path d="M 96 392 L 420 392 L 460 352 L 1184 352" stroke="#1E293B" stroke-width="1.2" fill="none"/>
+  <path d="M 96 392 L 420 392 L 460 352 L 1184 352" class="circuit-line" stroke-width="1.2" fill="none"/>
   <path d="M 96 392 L 420 392 L 460 352 L 1184 352" stroke="#38BDF8" stroke-width="1.2" fill="none" class="packet-line" opacity="0.6"/>
-
-  <!-- Decorative Matrix Dots in Background -->
-  <rect x="420" y="100" width="140" height="120" fill="url(#dotPattern)"/>
 
   <!-- ================= LEFT COLUMN: IDENTITY & PHILOSOPHY ================= -->
   
   <!-- Top System Badge -->
   <g transform="translate(64, 46)">
-    <rect width="336" height="28" rx="14" fill="#111827" fill-opacity="0.8" stroke="#1E293B" stroke-width="1"/>
-    <circle cx="14" cy="14" r="4" fill="#38BDF8"/>
-    <text x="26" y="18" fill="#7DD3FC" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.2">SYSTEMS_ARCHITECT // FULL-STACK</text>
+    <rect width="336" height="28" rx="14" class="prompt-box" stroke-width="1"/>
+    <circle cx="14" cy="14" r="4" fill="#0284C7"/>
+    <text x="26" y="18" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.2">SYSTEMS_ARCHITECT // FULL-STACK</text>
   </g>
 
   <!-- Primary Name Title -->
-  <text x="64" y="142" fill="url(#heroTitleGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="62" font-weight="900" letter-spacing="-2">
-    Vivek Kumar<tspan fill="#38BDF8">.</tspan>
+  <text x="64" y="142" class="text-title" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="62" font-weight="900" letter-spacing="-2">
+    Vivek Kumar<tspan fill="#0284C7">.</tspan>
   </text>
 
-  <!-- Role Carousel Container Bar (Cleanly Separated Below Name) -->
+  <!-- Role Carousel Container Bar -->
   <g transform="translate(64, 178)">
-    <rect width="530" height="34" rx="8" fill="#090D16" fill-opacity="0.75" stroke="#1E293B" stroke-width="1"/>
+    <rect width="530" height="34" rx="8" class="prompt-box"/>
     
     <!-- Static Prompt Label -->
     <text x="14" y="22" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="600">&gt; arch_focus:</text>
     
-    <!-- Dynamic Animated Roles (Positioned explicitly with X=142 to prevent any overlap) -->
+    <!-- Dynamic Animated Roles -->
     <g class="role-1">
-      <text x="142" y="22" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">"Scalable Distributed Systems"</text>
+      <text x="142" y="22" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">"Scalable Distributed Systems"</text>
     </g>
     <g class="role-2">
-      <text x="142" y="22" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">"Low-Latency Real-Time Media &amp; APIs"</text>
+      <text x="142" y="22" fill="#059669" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">"Low-Latency Real-Time Media &amp; APIs"</text>
     </g>
     <g class="role-3">
-      <text x="142" y="22" fill="#C084FC" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">"Production Multi-Tenant Platforms"</text>
+      <text x="142" y="22" fill="#7C3AED" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">"Production Multi-Tenant Platforms"</text>
     </g>
   </g>
 
   <!-- Value Statement & Context -->
-  <text x="64" y="248" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400">
+  <text x="64" y="248" class="text-bio" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400">
     Designing resilient architectures, low-latency audio streams, and high-throughput backends.
   </text>
-  <text x="64" y="276" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">
+  <text x="64" y="276" class="text-sub" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">
     📍 Chandigarh, India  ·  🎓 UIET Panjab University  ·  💡 500+ Algorithmic Problems Solved
   </text>
 
@@ -171,30 +193,30 @@
   <g transform="translate(64, 318)">
     <!-- Pill 1: Latency -->
     <g transform="translate(0, 0)">
-      <rect width="138" height="34" rx="8" fill="#0B1120" stroke="#1E293B" stroke-width="1.2"/>
+      <rect width="138" height="34" rx="8" class="pill-box" stroke-width="1.2"/>
       <circle cx="16" cy="17" r="3.5" fill="#10B981"/>
-      <text x="28" y="21" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">&lt;500ms Audio</text>
+      <text x="28" y="21" class="pill-text" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">&lt;500ms Audio</text>
     </g>
 
     <!-- Pill 2: APIs -->
     <g transform="translate(150, 0)">
-      <rect width="154" height="34" rx="8" fill="#0B1120" stroke="#1E293B" stroke-width="1.2"/>
+      <rect width="154" height="34" rx="8" class="pill-box" stroke-width="1.2"/>
       <circle cx="16" cy="17" r="3.5" fill="#38BDF8"/>
-      <text x="28" y="21" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">180+ REST APIs</text>
+      <text x="28" y="21" class="pill-text" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">180+ REST APIs</text>
     </g>
 
     <!-- Pill 3: CDN -->
     <g transform="translate(316, 0)">
-      <rect width="168" height="34" rx="8" fill="#0B1120" stroke="#1E293B" stroke-width="1.2"/>
+      <rect width="168" height="34" rx="8" class="pill-box" stroke-width="1.2"/>
       <circle cx="16" cy="17" r="3.5" fill="#A855F7"/>
-      <text x="28" y="21" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">C++17 Edge CDN</text>
+      <text x="28" y="21" class="pill-text" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">C++17 Edge CDN</text>
     </g>
 
     <!-- Pill 4: AI -->
     <g transform="translate(496, 0)">
-      <rect width="168" height="34" rx="8" fill="#0B1120" stroke="#1E293B" stroke-width="1.2"/>
+      <rect width="168" height="34" rx="8" class="pill-box" stroke-width="1.2"/>
       <circle cx="16" cy="17" r="3.5" fill="#F59E0B"/>
-      <text x="28" y="21" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">Gemini AI Bot Flow</text>
+      <text x="28" y="21" class="pill-text" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">Gemini AI Bot Flow</text>
     </g>
   </g>
 
@@ -202,63 +224,63 @@
   <!-- ================= RIGHT COLUMN: LIVE TELEMETRY HUD ================= -->
   
   <g transform="translate(836, 44)">
-    <!-- Main HUD Outer Box with Glass Gradient -->
-    <rect width="380" height="352" rx="16" fill="url(#glassCard)" stroke="#1E293B" stroke-width="1.5"/>
+    <!-- Main HUD Outer Box -->
+    <rect width="380" height="352" rx="16" class="hud-container" stroke-width="1.5"/>
     
     <!-- Top HUD Terminal Bar -->
-    <rect width="380" height="38" rx="16" fill="url(#hudHeaderGrad)"/>
-    <path d="M 0 38 L 380 38" stroke="#334155" stroke-width="1"/>
+    <rect width="380" height="38" rx="16" class="hud-header"/>
+    <path d="M 0 38 L 380 38" class="hud-line" stroke-width="1"/>
 
     <!-- Terminal Window Controls -->
     <circle cx="24" cy="19" r="4.5" fill="#EF4444" opacity="0.85"/>
     <circle cx="38" cy="19" r="4.5" fill="#F59E0B" opacity="0.85"/>
     <circle cx="52" cy="19" r="4.5" fill="#10B981" opacity="0.85"/>
-    <text x="74" y="23" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">LIVE_SYSTEM_TELEMETRY</text>
+    <text x="74" y="23" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">LIVE_SYSTEM_TELEMETRY</text>
 
     <!-- Status Beacon & Availability -->
     <g transform="translate(24, 56)">
-      <rect width="332" height="34" rx="8" fill="#090E17" stroke="#1E293B" stroke-width="1"/>
+      <rect width="332" height="34" rx="8" class="hud-inner-box" stroke-width="1"/>
       <g class="radar-dot" transform="translate(18, 17)">
         <circle cx="0" cy="0" r="7" fill="#10B981" fill-opacity="0.25"/>
         <circle cx="0" cy="0" r="3.5" fill="#10B981"/>
       </g>
-      <text x="36" y="21" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">STATUS: READY FOR SDE ROLES</text>
+      <text x="36" y="21" fill="#059669" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">STATUS: READY FOR SDE ROLES</text>
       <text x="314" y="21" text-anchor="end" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="11">2026.Q3</text>
     </g>
 
     <!-- Telemetry Row 1: Languages -->
     <g transform="translate(24, 110)">
       <text x="0" y="14" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">CORE_LANGUAGES</text>
-      <text x="332" y="14" text-anchor="end" fill="#F1F5F9" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">TypeScript · C++17 · SQL</text>
-      <line x1="0" y1="24" x2="332" y2="24" stroke="#1E293B" stroke-width="1"/>
+      <text x="332" y="14" text-anchor="end" class="hud-text-white" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">TypeScript · C++17 · SQL</text>
+      <line x1="0" y1="24" x2="332" y2="24" class="hud-line" stroke-width="1"/>
     </g>
 
     <!-- Telemetry Row 2: Architecture -->
     <g transform="translate(24, 148)">
       <text x="0" y="14" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">BACKEND_LAYER</text>
-      <text x="332" y="14" text-anchor="end" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Node · Express · Microservices</text>
-      <line x1="0" y1="24" x2="332" y2="24" stroke="#1E293B" stroke-width="1"/>
+      <text x="332" y="14" text-anchor="end" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Node · Express · Microservices</text>
+      <line x1="0" y1="24" x2="332" y2="24" class="hud-line" stroke-width="1"/>
     </g>
 
     <!-- Telemetry Row 3: Realtime & Cache -->
     <g transform="translate(24, 186)">
       <text x="0" y="14" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">REALTIME_STREAM</text>
-      <text x="332" y="14" text-anchor="end" fill="#F472B6" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">WebRTC · Socket.IO · Redis</text>
-      <line x1="0" y1="24" x2="332" y2="24" stroke="#1E293B" stroke-width="1"/>
+      <text x="332" y="14" text-anchor="end" fill="#DB2777" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">WebRTC · Socket.IO · Redis</text>
+      <line x1="0" y1="24" x2="332" y2="24" class="hud-line" stroke-width="1"/>
     </g>
 
     <!-- Telemetry Row 4: Cloud & Ops -->
     <g transform="translate(24, 224)">
       <text x="0" y="14" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">INFRA_ORCHESTRATION</text>
-      <text x="332" y="14" text-anchor="end" fill="#A78BFA" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Docker · K8s · CI/CD · Azure</text>
-      <line x1="0" y1="24" x2="332" y2="24" stroke="#1E293B" stroke-width="1"/>
+      <text x="332" y="14" text-anchor="end" fill="#7C3AED" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Docker · K8s · CI/CD · Azure</text>
+      <line x1="0" y1="24" x2="332" y2="24" class="hud-line" stroke-width="1"/>
     </g>
 
     <!-- Bottom Action Console Pill -->
     <g transform="translate(24, 276)">
-      <rect width="332" height="52" rx="8" fill="#080D18" stroke="#3B82F6" stroke-width="1.2"/>
-      <circle cx="18" cy="26" r="3" fill="#38BDF8"/>
-      <text x="30" y="24" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">connectsphere --prod --scale</text>
+      <rect width="332" height="52" rx="8" class="console-box" stroke-width="1.2"/>
+      <circle cx="18" cy="26" r="3" fill="#0284C7"/>
+      <text x="30" y="24" class="console-text-top" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">connectsphere --prod --scale</text>
       <text x="30" y="40" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="10">&gt; 180 APIs active · 0 errors</text>
     </g>
   </g>

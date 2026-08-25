@@ -1,77 +1,106 @@
-<svg width="1280" height="280" viewBox="0 0 1280 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vivek Kumar - Engineering Metrics and Production Telemetry">
+<svg width="100%" height="auto" viewBox="0 0 1280 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vivek Kumar - Engineering Metrics and Production Telemetry">
   <defs>
-    <linearGradient id="statBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="statBgDark" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#080C14"/>
       <stop offset="50%" stop-color="#0B1120"/>
       <stop offset="100%" stop-color="#030712"/>
     </linearGradient>
+    <linearGradient id="statBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="50%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
 
-    <linearGradient id="statCard" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="statCardDark" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#1E293B" stop-opacity="0.8"/>
       <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95"/>
     </linearGradient>
+    <linearGradient id="statCardLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0.95"/>
+    </linearGradient>
 
-    <pattern id="statGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <pattern id="statGridDark" width="24" height="24" patternUnits="userSpaceOnUse">
       <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1E293B" stroke-width="0.5" stroke-opacity="0.5"/>
     </pattern>
+    <pattern id="statGridLight" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#CBD5E1" stroke-width="0.5" stroke-opacity="0.6"/>
+    </pattern>
+
+    <style>
+      .stats-bg { fill: url(#statBgDark); }
+      .stats-grid { fill: url(#statGridDark); }
+      .stats-card { fill: url(#statCardDark); stroke: #1E293B; }
+      .stats-num { fill: #FFFFFF; }
+      .stats-label { fill: #94A3B8; }
+      .stats-sub { fill: #64748B; }
+
+      @media (prefers-color-scheme: light) {
+        .stats-bg { fill: url(#statBgLight); }
+        .stats-grid { fill: url(#statGridLight); }
+        .stats-card { fill: url(#statCardLight); stroke: #CBD5E1; }
+        .stats-num { fill: #0F172A; }
+        .stats-label { fill: #334155; }
+        .stats-sub { fill: #64748B; }
+      }
+    </style>
   </defs>
 
   <!-- Background Base -->
-  <rect width="1280" height="280" rx="16" fill="url(#statBg)" stroke="#1E293B" stroke-width="1.5"/>
-  <rect width="1280" height="280" rx="16" fill="url(#statGrid)"/>
+  <rect width="1280" height="280" rx="16" class="stats-bg" stroke="#1E293B" stroke-width="1.5"/>
+  <rect width="1280" height="280" rx="16" class="stats-grid"/>
 
   <!-- Top Title -->
   <g transform="translate(48, 28)">
-    <text x="0" y="16" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" letter-spacing="1.5">PRODUCTION_TELEMETRY // BENCHMARKS</text>
+    <text x="0" y="16" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" letter-spacing="1.5">PRODUCTION_TELEMETRY // BENCHMARKS</text>
   </g>
 
   <!-- 4 Stat Cards Row -->
   <!-- Card 1: DSA / Algorithms -->
   <g transform="translate(48, 64)">
-    <rect width="275" height="176" rx="12" fill="url(#statCard)" stroke="#1E293B" stroke-width="1.2"/>
-    <rect x="0" y="0" width="275" height="3" rx="1.5" fill="#FFA116"/>
+    <rect width="275" height="176" rx="12" class="stats-card" stroke-width="1.2"/>
+    <rect x="0" y="0" width="275" height="3" rx="1.5" fill="#D97706"/>
     
-    <text x="20" y="32" fill="#FFA116" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">LEETCODE &amp; GFG</text>
-    <text x="20" y="80" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="40" font-weight="800" letter-spacing="-1">500+</text>
-    <text x="20" y="112" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">DSA Problems Solved</text>
-    <text x="20" y="136" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Data Structures, Graphs, DP, Trees</text>
-    <text x="20" y="156" fill="#FFA116" font-family="'JetBrains Mono', monospace" font-size="11">&gt; Verified Profile</text>
+    <text x="20" y="32" fill="#D97706" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">LEETCODE &amp; GFG</text>
+    <text x="20" y="80" class="stats-num" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="40" font-weight="800" letter-spacing="-1">500+</text>
+    <text x="20" y="112" class="stats-label" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">DSA Problems Solved</text>
+    <text x="20" y="136" class="stats-sub" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Data Structures, Graphs, DP, Trees</text>
+    <text x="20" y="156" fill="#D97706" font-family="'JetBrains Mono', monospace" font-size="11">&gt; Verified Profile</text>
   </g>
 
   <!-- Card 2: Production APIs & Models -->
   <g transform="translate(347, 64)">
-    <rect width="275" height="176" rx="12" fill="url(#statCard)" stroke="#1E293B" stroke-width="1.2"/>
-    <rect x="0" y="0" width="275" height="3" rx="1.5" fill="#3B82F6"/>
+    <rect width="275" height="176" rx="12" class="stats-card" stroke-width="1.2"/>
+    <rect x="0" y="0" width="275" height="3" rx="1.5" fill="#0284C7"/>
     
-    <text x="20" y="32" fill="#60A5FA" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">API ARCHITECTURE</text>
-    <text x="20" y="80" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="40" font-weight="800" letter-spacing="-1">180+</text>
-    <text x="20" y="112" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Production REST APIs</text>
-    <text x="20" y="136" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">70+ DB Models · ConnectSphere</text>
-    <text x="20" y="156" fill="#60A5FA" font-family="'JetBrains Mono', monospace" font-size="11">&gt; Multi-tenant isolated</text>
+    <text x="20" y="32" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">API ARCHITECTURE</text>
+    <text x="20" y="80" class="stats-num" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="40" font-weight="800" letter-spacing="-1">180+</text>
+    <text x="20" y="112" class="stats-label" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Production REST APIs</text>
+    <text x="20" y="136" class="stats-sub" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">70+ DB Models · ConnectSphere</text>
+    <text x="20" y="156" fill="#0284C7" font-family="'JetBrains Mono', monospace" font-size="11">&gt; Multi-tenant isolated</text>
   </g>
 
   <!-- Card 3: Realtime Latency -->
   <g transform="translate(646, 64)">
-    <rect width="275" height="176" rx="12" fill="url(#statCard)" stroke="#1E293B" stroke-width="1.2"/>
-    <rect x="0" y="0" width="275" height="3" rx="1.5" fill="#10B981"/>
+    <rect width="275" height="176" rx="12" class="stats-card" stroke-width="1.2"/>
+    <rect x="0" y="0" width="275" height="3" rx="1.5" fill="#059669"/>
     
-    <text x="20" y="32" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">REALTIME PIPELINES</text>
-    <text x="20" y="80" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="40" font-weight="800" letter-spacing="-1">&lt;500ms</text>
-    <text x="20" y="112" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">AI Speech Translation</text>
-    <text x="20" y="136" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">40+ Languages · 32ms Audio Buffer</text>
-    <text x="20" y="156" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="11">&gt; Vaani WebRTC Engine</text>
+    <text x="20" y="32" fill="#059669" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">REALTIME PIPELINES</text>
+    <text x="20" y="80" class="stats-num" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="40" font-weight="800" letter-spacing="-1">&lt;500ms</text>
+    <text x="20" y="112" class="stats-label" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">AI Speech Translation</text>
+    <text x="20" y="136" class="stats-sub" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">40+ Languages · 32ms Audio Buffer</text>
+    <text x="20" y="156" fill="#059669" font-family="'JetBrains Mono', monospace" font-size="11">&gt; Vaani WebRTC Engine</text>
   </g>
 
   <!-- Card 4: Edge & High Performance -->
   <g transform="translate(945, 64)">
-    <rect width="287" height="176" rx="12" fill="url(#statCard)" stroke="#1E293B" stroke-width="1.2"/>
-    <rect x="0" y="0" width="287" height="3" rx="1.5" fill="#8B5CF6"/>
+    <rect width="287" height="176" rx="12" class="stats-card" stroke-width="1.2"/>
+    <rect x="0" y="0" width="287" height="3" rx="1.5" fill="#7C3AED"/>
     
-    <text x="20" y="32" fill="#A78BFA" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">SYSTEMS &amp; EDGE</text>
-    <text x="20" y="80" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="40" font-weight="800" letter-spacing="-1">3 Nodes</text>
-    <text x="20" y="112" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Regional C++17 CDN</text>
-    <text x="20" y="136" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">GeoIP Routing · Automated Failover</text>
-    <text x="20" y="156" fill="#A78BFA" font-family="'JetBrains Mono', monospace" font-size="11">&gt; Delhi · Mumbai · Bengaluru</text>
+    <text x="20" y="32" fill="#7C3AED" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">SYSTEMS &amp; EDGE</text>
+    <text x="20" y="80" class="stats-num" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="40" font-weight="800" letter-spacing="-1">3 Nodes</text>
+    <text x="20" y="112" class="stats-label" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Regional C++17 CDN</text>
+    <text x="20" y="136" class="stats-sub" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">GeoIP Routing · Automated Failover</text>
+    <text x="20" y="156" fill="#7C3AED" font-family="'JetBrains Mono', monospace" font-size="11">&gt; Delhi · Mumbai · Bengaluru</text>
   </g>
 </svg>
-
