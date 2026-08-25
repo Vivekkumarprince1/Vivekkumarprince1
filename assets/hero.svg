@@ -1,4 +1,4 @@
-<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vivek Kumar - Software Engineer &amp; Systems Architect">
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vivek Kumar - Software Engineer and Systems Architect">
   <defs>
     <!-- Background Gradients -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -84,7 +84,7 @@
   <!-- Decorative Circuit Lines -->
   <path d="M 60 40 L 400 40 L 440 80 L 760 80" stroke="#1E293B" stroke-width="1.5" fill="none"/>
   <path d="M 760 80 L 800 40 L 1220 40" stroke="#1E293B" stroke-width="1.5" fill="none"/>
-  <path d="M 120 380 L 520 380 L 560 340 L 1180 340" stroke="#1E293B" stroke-width="1.5" fill="none" class="stream-line" stroke="#334155"/>
+  <path d="M 120 380 L 520 380 L 560 340 L 1180 340" stroke="#334155" stroke-width="1.5" fill="none" class="stream-line"/>
 
   <!-- Left Main Column (Hero Identity) -->
   <!-- Top Tagline Badge -->
@@ -118,7 +118,7 @@
     Engineering dependable backend architectures, real-time media pipelines, and robust full-stack applications.
   </text>
   <text x="68" y="274" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400">
-    📍 Chandigarh, India &nbsp;·&nbsp; 🎓 UIET Panjab University &nbsp;·&nbsp; 💡 500+ Algorithmic Problems Solved
+    📍 Chandigarh, India  ·  🎓 UIET Panjab University  ·  💡 500+ Algorithmic Problems Solved
   </text>
 
   <!-- Left Stats / Capabilities Pills -->
