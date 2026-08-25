@@ -88,11 +88,16 @@ I am a **Software Engineer & Systems Architect** focused on designing, building,
 
 ---
 
-## 🛠️ Technical Arsenal & Core Stack
+## 🛠️ Technical Arsenal & Engineering Stack
 
 <div align="center">
 
-<!-- Visual Tech Icons Bar -->
+<!-- Custom Dark Mode Technical Capabilities Banner -->
+<img src="https://raw.githubusercontent.com/Vivekkumarprince1/Vivekkumarprince1/main/assets/skills.svg" width="100%" alt="Vivek Kumar - Technical Arsenal & Capabilities" />
+
+<br /><br />
+
+<!-- Interactive Tech Icons Ribbon -->
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=ts,js,cpp,c,nodejs,express,nextjs,react,mongodb,mysql,redis,docker,kubernetes,githubactions,azure,linux,git,postman,tailwind,html,css&perline=11&theme=dark" alt="Technical Stack Icons" />
 </a>
@@ -101,63 +106,11 @@ I am a **Software Engineer & Systems Architect** focused on designing, building,
 
 <br />
 
-### 💻 Stack Breakdown by Domain
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>⚡ Languages & Core Runtimes</h4>
-      <p>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /><br />
-        <img src="https://img.shields.io/badge/C++17-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-        <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
-        <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚙️ Backend, Real-Time & AI</h4>
-      <p>
-        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-        <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" /><br />
-        <img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white" alt="Socket.IO" />
-        <img src="https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white" alt="WebRTC" /><br />
-        <img src="https://img.shields.io/badge/BullMQ-CC0000?style=for-the-badge&logo=redis&logoColor=white" alt="BullMQ" />
-        <img src="https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=google&logoColor=white" alt="Gemini AI" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🗄️ Databases, Storage & Caching</h4>
-      <p>
-        <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" /><br />
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-        <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white" alt="Cloudinary" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>☁️ DevOps, Cloud & Security</h4>
-      <p>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-        <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" /><br />
-        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
-        <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure" /><br />
-        <img src="https://img.shields.io/badge/JWT_&_RBAC-0B0F19?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT & RBAC" />
-        <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-      </p>
-    </td>
-  </tr>
-</table>
-
-<br />
-
 ### 📐 Architectural Competency Matrix
 
 | Engineering Layer | Core Capabilities & Competencies | Applied Systems / Implementations |
 | :--- | :--- | :--- |
-| **Distributed Systems** | Microservices decoupling, GeoIP routing, Edge failover, Bounded worker pools | [Simple CDN](https://github.com/Vivekkumarprince1/simple-cdn), [wApi](https://github.com/Vivekkumarprince1/wApi) |
+| **Distributed Systems** | Microservices decoupling, GeoIP routing, Edge failover, Bounded worker pools | [Simple CDN](https://github.com/Vivekkumarprince1/simple-cdn), [ConnectSphere](https://github.com/Vivekkumarprince1/connectsphere) |
 | **Real-Time Communication** | WebRTC mesh/signaling, Socket.IO, VAD silence stripping, Sub-500ms audio translation | [Vaani Platform](https://github.com/Vivekkumarprince1/vaani) |
 | **Cloud & Multi-Tenancy** | Tenant data isolation, 180+ REST APIs, Redis rate limiting, Webhook queues, Double-entry ledgers | [ConnectSphere](https://github.com/Vivekkumarprince1/connectsphere) |
 | **Data & Storage Engineering** | Compound index optimization, Aggregation pipelines, ACID transactions, Redis TTL caching | [ConnectSphere](https://github.com/Vivekkumarprince1/connectsphere), [FMPG](https://github.com/Vivekkumarprince1/fmpg1) |
@@ -165,23 +118,21 @@ I am a **Software Engineer & Systems Architect** focused on designing, building,
 
 ---
 
-## 📈 Engineering Metrics & Problem Solving
+## 📈 Engineering Metrics & Production Telemetry
 
 <div align="center">
 
-<p align="center">
-  <a href="https://leetcode.com/u/q5lq9sHvTw/">
-    <img src="https://img.shields.io/badge/DATA_STRUCTURES_&_ALGORITHMS-500+_PROBLEMS_SOLVED-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode 500+ Solved" />
-  </a>
-</p>
+<!-- In-Repo Deterministic Telemetry & Problem Solving Banner -->
+<img src="https://raw.githubusercontent.com/Vivekkumarprince1/Vivekkumarprince1/main/assets/stats.svg" width="100%" alt="Engineering Metrics & Telemetry" />
+
+<br /><br />
 
 <table border="0" align="center">
   <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=Vivekkumarprince1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B0F19&title_color=3B82F6&icon_color=60A5FA&text_color=94A3B8" alt="GitHub Stats" width="100%" />
-    </td>
-    <td align="center" width="50%">
-      <img src="https://streak-stats.demolab.com/?user=Vivekkumarprince1&theme=tokyonight&hide_border=true&background=0B0F19&ring=3B82F6&fire=38BDF8&currStreakLabel=60A5FA" alt="GitHub Streak" width="100%" />
+    <td align="center">
+      <a href="https://github.com/Vivekkumarprince1">
+        <img src="https://streak-stats.demolab.com/?user=Vivekkumarprince1&theme=tokyonight&hide_border=true&background=0B0F19&ring=3B82F6&fire=38BDF8&currStreakLabel=60A5FA" alt="GitHub Streak" height="195" />
+      </a>
     </td>
   </tr>
 </table>

@@ -1,0 +1,263 @@
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vivek Kumar - Technical Arsenal &amp; Engineering Stack">
+  <defs>
+    <!-- Background & Card Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="50%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <linearGradient id="blueGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+
+    <linearGradient id="greenGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+
+    <linearGradient id="purpleGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+
+    <linearGradient id="amberGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="skillsGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.5"/>
+    </pattern>
+
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas Base -->
+  <rect width="1280" height="520" rx="16" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="1.5"/>
+  <rect width="1280" height="520" rx="16" fill="url(#skillsGrid)"/>
+
+  <!-- Top Header Bar -->
+  <g transform="translate(48, 36)">
+    <rect width="180" height="26" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <circle cx="12" cy="13" r="4" fill="#3B82F6"/>
+    <text x="24" y="17" fill="#93C5FD" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">SYSTEM_CAPABILITIES</text>
+
+    <text x="0" y="58" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">
+      Technical Arsenal <tspan fill="#3B82F6">&amp;</tspan> Engineering Stack
+    </text>
+    <text x="0" y="80" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">
+      Production-tested technologies applied across distributed systems, real-time media, and multi-tenant architectures.
+    </text>
+  </g>
+
+  <!-- 4 Primary Domain Cards (2x2 Grid) -->
+
+  <!-- CARD 1: LANGUAGES & RUNTIMES (Top-Left) -->
+  <g transform="translate(48, 140)">
+    <rect width="570" height="152" rx="12" fill="url(#cardGrad1)" stroke="#1E293B" stroke-width="1.2"/>
+    <rect x="0" y="0" width="4" height="152" rx="2" fill="url(#blueGlow)"/>
+    
+    <!-- Title -->
+    <text x="24" y="32" fill="#60A5FA" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">01 // LANGUAGES &amp; CORE RUNTIMES</text>
+    <line x1="24" y1="46" x2="546" y2="46" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Tags Row 1 -->
+    <!-- TypeScript -->
+    <g transform="translate(24, 60)">
+      <rect width="118" height="30" rx="6" fill="#0B0F19" stroke="#3178C6" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#3178C6"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">TypeScript</text>
+    </g>
+    <!-- JavaScript ES6+ -->
+    <g transform="translate(150, 60)">
+      <rect width="144" height="30" rx="6" fill="#0B0F19" stroke="#F7DF1E" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#F7DF1E"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">JavaScript (ES6+)</text>
+    </g>
+    <!-- C++17 -->
+    <g transform="translate(302, 60)">
+      <rect width="90" height="30" rx="6" fill="#0B0F19" stroke="#00599C" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#00599C"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">C++17</text>
+    </g>
+    <!-- C -->
+    <g transform="translate(400, 60)">
+      <rect width="64" height="30" rx="6" fill="#0B0F19" stroke="#A8B9CC" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#A8B9CC"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">C</text>
+    </g>
+    <!-- SQL -->
+    <g transform="translate(472, 60)">
+      <rect width="74" height="30" rx="6" fill="#0B0F19" stroke="#4479A1" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#4479A1"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">SQL</text>
+    </g>
+
+    <!-- Tags Row 2 -->
+    <g transform="translate(24, 102)">
+      <text x="0" y="18" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="11">PARADIGMS:</text>
+      <text x="84" y="18" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
+        Object-Oriented Design · Async/Event Loop · Memory-Safe Patterns · Multithreading
+      </text>
+    </g>
+  </g>
+
+  <!-- CARD 2: BACKEND, REAL-TIME & AI (Top-Right) -->
+  <g transform="translate(662, 140)">
+    <rect width="570" height="152" rx="12" fill="url(#cardGrad1)" stroke="#1E293B" stroke-width="1.2"/>
+    <rect x="0" y="0" width="4" height="152" rx="2" fill="url(#greenGlow)"/>
+    
+    <!-- Title -->
+    <text x="24" y="32" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">02 // BACKEND, REAL-TIME &amp; AI</text>
+    <line x1="24" y1="46" x2="546" y2="46" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Tags Row 1 -->
+    <!-- Node.js -->
+    <g transform="translate(24, 60)">
+      <rect width="96" height="30" rx="6" fill="#0B0F19" stroke="#22C55E" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#22C55E"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Node.js</text>
+    </g>
+    <!-- Express.js -->
+    <g transform="translate(128, 60)">
+      <rect width="108" height="30" rx="6" fill="#0B0F19" stroke="#64748B" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#94A3B8"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Express.js</text>
+    </g>
+    <!-- Socket.IO -->
+    <g transform="translate(244, 60)">
+      <rect width="104" height="30" rx="6" fill="#0B0F19" stroke="#38BDF8" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#38BDF8"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Socket.IO</text>
+    </g>
+    <!-- WebRTC -->
+    <g transform="translate(356, 60)">
+      <rect width="90" height="30" rx="6" fill="#0B0F19" stroke="#F472B6" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#F472B6"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">WebRTC</text>
+    </g>
+    <!-- Gemini AI -->
+    <g transform="translate(454, 60)">
+      <rect width="92" height="30" rx="6" fill="#0B0F19" stroke="#A855F7" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#A855F7"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Gemini AI</text>
+    </g>
+
+    <!-- Tags Row 2 -->
+    <g transform="translate(24, 102)">
+      <text x="0" y="18" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="11">CAPABILITIES:</text>
+      <text x="96" y="18" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
+        180+ REST APIs · BullMQ Queues · Sub-500ms Audio Stream · AI Bot Flows
+      </text>
+    </g>
+  </g>
+
+  <!-- CARD 3: DATABASES & STORAGE (Bottom-Left) -->
+  <g transform="translate(48, 308)">
+    <rect width="570" height="152" rx="12" fill="url(#cardGrad1)" stroke="#1E293B" stroke-width="1.2"/>
+    <rect x="0" y="0" width="4" height="152" rx="2" fill="url(#amberGlow)"/>
+    
+    <!-- Title -->
+    <text x="24" y="32" fill="#FBBF24" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">03 // DATABASES, CACHING &amp; STORAGE</text>
+    <line x1="24" y1="46" x2="546" y2="46" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Tags Row 1 -->
+    <!-- MongoDB -->
+    <g transform="translate(24, 60)">
+      <rect width="128" height="30" rx="6" fill="#0B0F19" stroke="#10AA50" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#10AA50"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">MongoDB Atlas</text>
+    </g>
+    <!-- Redis -->
+    <g transform="translate(160, 60)">
+      <rect width="112" height="30" rx="6" fill="#0B0F19" stroke="#EF4444" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#EF4444"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Redis Cache</text>
+    </g>
+    <!-- MySQL -->
+    <g transform="translate(280, 60)">
+      <rect width="84" height="30" rx="6" fill="#0B0F19" stroke="#00758F" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#00758F"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">MySQL</text>
+    </g>
+    <!-- Cloudinary CDN -->
+    <g transform="translate(372, 60)">
+      <rect width="138" height="30" rx="6" fill="#0B0F19" stroke="#3448C5" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#3448C5"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Cloudinary CDN</text>
+    </g>
+
+    <!-- Tags Row 2 -->
+    <g transform="translate(24, 102)">
+      <text x="0" y="18" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="11">RELIABILITY:</text>
+      <text x="94" y="18" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
+        ACID Wallet Ledgers · Aggregation Pipelines · TTL LRU Caching · Index Tuning
+      </text>
+    </g>
+  </g>
+
+  <!-- CARD 4: CLOUD, DEVOPS & INFRA (Bottom-Right) -->
+  <g transform="translate(662, 308)">
+    <rect width="570" height="152" rx="12" fill="url(#cardGrad1)" stroke="#1E293B" stroke-width="1.2"/>
+    <rect x="0" y="0" width="4" height="152" rx="2" fill="url(#purpleGlow)"/>
+    
+    <!-- Title -->
+    <text x="24" y="32" fill="#C084FC" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">04 // CLOUD, DEVOPS &amp; SECURITY</text>
+    <line x1="24" y1="46" x2="546" y2="46" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Tags Row 1 -->
+    <!-- Docker -->
+    <g transform="translate(24, 60)">
+      <rect width="88" height="30" rx="6" fill="#0B0F19" stroke="#2496ED" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#2496ED"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Docker</text>
+    </g>
+    <!-- Kubernetes -->
+    <g transform="translate(120, 60)">
+      <rect width="114" height="30" rx="6" fill="#0B0F19" stroke="#326CE5" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#326CE5"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Kubernetes</text>
+    </g>
+    <!-- GitHub Actions -->
+    <g transform="translate(242, 60)">
+      <rect width="138" height="30" rx="6" fill="#0B0F19" stroke="#2088FF" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#2088FF"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">GitHub Actions</text>
+    </g>
+    <!-- Microsoft Azure -->
+    <g transform="translate(388, 60)">
+      <rect width="84" height="30" rx="6" fill="#0B0F19" stroke="#0078D4" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#0078D4"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">Azure</text>
+    </g>
+    <!-- JWT & RBAC -->
+    <g transform="translate(480, 60)">
+      <rect width="66" height="30" rx="6" fill="#0B0F19" stroke="#10B981" stroke-width="1"/>
+      <circle cx="12" cy="15" r="3" fill="#10B981"/>
+      <text x="22" y="19" fill="#E2E8F0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600">RBAC</text>
+    </g>
+
+    <!-- Tags Row 2 -->
+    <g transform="translate(24, 102)">
+      <text x="0" y="18" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="11">DEPLOYMENT:</text>
+      <text x="100" y="18" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
+        GitOps · Helm Charts · Zero-Trust Auth · Linux SysAdmin · Multi-Stage Builds
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Stripe -->
+  <rect x="48" y="480" width="1184" height="1" fill="#1E293B"/>
+</svg>
+
