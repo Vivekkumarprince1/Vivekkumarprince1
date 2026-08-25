@@ -66,11 +66,6 @@
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
 
-    <filter id="subtleGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-
     <style>
       @keyframes pulseBeacon {
         0%, 100% { opacity: 1; transform: scale(1); }
@@ -255,12 +250,12 @@
         <text x="20" y="46" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700" text-anchor="middle">GATEWAY</text>
       </g>
 
-      <!-- Node 4: ConnectSphere App Pod (Top) -->
+      <!-- Node 4: ConnectSphere (Internship / Enterprise Engine) -->
       <g transform="translate(254, 24)">
         <rect width="100" height="34" rx="6" fill="#042F2E" stroke="#0D9488" stroke-width="1.5"/>
         <circle cx="12" cy="17" r="3" fill="#2DD4BF"/>
         <text x="20" y="16" fill="#5EEAD4" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">ConnectSphere</text>
-        <text x="20" y="27" fill="#99F6E4" font-family="'JetBrains Mono', monospace" font-size="8">180+ APIs · AI</text>
+        <text x="20" y="27" fill="#99F6E4" font-family="'JetBrains Mono', monospace" font-size="8">SDE Intern · 180+ APIs</text>
       </g>
 
       <!-- Node 5: Vaani WebRTC Stream (Middle) -->
@@ -281,7 +276,6 @@
 
       <!-- Node 7: Multi-Layer DB & Redis Cluster -->
       <g transform="translate(386, 68)">
-        <!-- DB Cluster Cylinders -->
         <path d="M 0 4 C 0 8, 24 8, 24 4 C 24 0, 0 0, 0 4 Z" fill="#022C22" stroke="#10B981" stroke-width="1.2"/>
         <path d="M 0 4 V 16 C 0 20, 24 20, 24 16 V 4" fill="#022C22" stroke="#10B981" stroke-width="1.2"/>
         <path d="M 0 16 V 28 C 0 32, 24 32, 24 28 V 16" fill="#022C22" stroke="#10B981" stroke-width="1.2"/>

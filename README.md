@@ -37,22 +37,9 @@ I am a **Software Engineer & Systems Architect** focused on designing, building,
 
 ---
 
-## 🏛️ Flagship Engineering Systems
+## 🏛️ Featured Engineering Systems & Projects
 
-### 01 · [ConnectSphere](https://github.com/Vivekkumarprince1/connectsphere) — Enterprise WhatsApp Business Platform
-> **Multi-tenant cloud platform powering automated enterprise WhatsApp messaging, conversational AI, and real-time workflows at scale.**
->
-> 🔗 **[Live Platform ↗](https://connectsphere-customer-vivek.eastus.cloudapp.azure.com)** &nbsp;|&nbsp; 📁 **[Repository ↗](https://github.com/Vivekkumarprince1/connectsphere)** &nbsp;|&nbsp; ☸️ **[GitOps Repo ↗](https://github.com/Vivekkumarprince1/connectsphere-gitops)**
-
-- **Architecture & Scale:** Engineered **180+ production REST APIs** and **70+ database models** across multi-tenant boundaries with tenant isolation, Google OAuth SSO, and granular Role-Based Access Control (RBAC).
-- **Gemini AI Integration:** Built an intelligent multi-turn AI chatbot resolving **90%+ of inbound inquiries** automatically with dynamic prompt context and human agent escalation.
-- **Real-Time & Queues:** Architected high-throughput Redis OTP and webhook ingress processing pipeline achieving response times **under 200 ms**.
-- **Financial Reliability:** Implemented a double-entry, transaction-safe wallet ledger with ACID transactions for message credit billing.
-- **Tech Stack:** `TypeScript` · `Next.js 14` · `Node.js` · `Express` · `MongoDB` · `Redis` · `Socket.IO` · `Docker` · `Kubernetes`
-
----
-
-### 02 · [Simple CDN](https://github.com/Vivekkumarprince1/simple-cdn) — Regional C++17 Content Delivery Network
+### 01 · [Simple CDN](https://github.com/Vivekkumarprince1/simple-cdn) — Regional C++17 Content Delivery Network
 > **High-performance regional HTTP CDN with edge intelligence, GeoIP routing, and automated failover built in modern C++17.**
 >
 > 📁 **[Repository ↗](https://github.com/Vivekkumarprince1/simple-cdn)**
@@ -64,7 +51,7 @@ I am a **Software Engineer & Systems Architect** focused on designing, building,
 
 ---
 
-### 03 · [Vaani](https://github.com/Vivekkumarprince1/vaani) — Real-Time Multilingual Communication Platform
+### 02 · [Vaani](https://github.com/Vivekkumarprince1/vaani) — Real-Time Multilingual Communication Platform
 > **Ultra-low latency speech translation engine and WebRTC conference platform bridging conversations across 40+ languages.**
 >
 > 🔗 **[Live Demo ↗](https://react-vaani-frontend.vercel.app/login)** &nbsp;|&nbsp; 📁 **[Repository ↗](https://github.com/Vivekkumarprince1/vaani)**
@@ -76,15 +63,52 @@ I am a **Software Engineer & Systems Architect** focused on designing, building,
 
 ---
 
-### 04 · [FMPG](https://github.com/Vivekkumarprince1/fmpg1) — Rental Discovery & Booking Platform
+### 03 · [FMPG](https://github.com/Vivekkumarprince1/fmpg1) — Rental Discovery & Booking Platform
 > **Full-stack real estate and accommodation discovery platform with automated owner workflows, media delivery, and secure payments.**
 >
-> 🔗 **[Live Platform ↗](https://www.fmpg.in/)** &nbsp;|&nbsp; 📁 **[Repository ↗](https://github.com/Vivekkumarprince1/fmpg1)** &nbsp;|&nbsp; 💼 **[Career Portal ↗](https://career-fmpg.vercel.app)**
+> 🔗 **[Live Platform ↗](https://www.fmpg.in/)** &nbsp;|&nbsp; 📁 **[Repository ↗](https://github.com/Vivekkumarprince1/fmpg1)**
 
 - **Product Workflows:** Founded and deployed an end-to-end marketplace supporting **100+ property listings** with dual-role authentication (Tenants / Property Owners) and an approval-based booking engine.
 - **Payments & Processing:** Integrated Razorpay payment gateways, automated PDF invoice generation, Cloudinary media transformations, and email notification queues.
 - **Performance Tuning:** Boosted database query throughput and trimmed API response times by **30%** using compound MongoDB indexes and aggregation pipelines.
 - **Tech Stack:** `Node.js` · `Express` · `MongoDB Atlas` · `EJS` · `Razorpay` · `Cloudinary` · `RBAC`
+
+---
+
+### 04 · [Career at FMPG](https://github.com/Vivekkumarprince1/career.fmpg) — Focused Recruitment Flow
+> **Purpose-built candidate portal and hiring flow for growing product companies.**
+>
+> 🔗 **[Live Portal ↗](https://career-fmpg.vercel.app)** &nbsp;|&nbsp; 📁 **[Repository ↗](https://github.com/Vivekkumarprince1/career.fmpg)**
+
+- **Hiring Experience:** Built a responsive recruitment application workflow with role filtering, candidate application submissions, and clean REST backend processing.
+- **Tech Stack:** `React.js` · `Node.js` · `Express` · `MongoDB`
+
+---
+
+## 💼 Professional Experience & Internships
+
+### 🏢 Software Engineering Intern · [ConnectSphere](https://connectsphere-customer-vivek.eastus.cloudapp.azure.com) *(Feb 2026 – Present)*
+> **Multi-tenant cloud platform powering automated enterprise WhatsApp messaging, conversational AI, and real-time workflows at scale.**
+>
+> 🔗 **[Live Platform ↗](https://connectsphere-customer-vivek.eastus.cloudapp.azure.com)** &nbsp;|&nbsp; 📁 **[Repository ↗](https://github.com/Vivekkumarprince1/connectsphere)** &nbsp;|&nbsp; ☸️ **[GitOps Repo ↗](https://github.com/Vivekkumarprince1/connectsphere-gitops)**
+
+- **180+ Production REST APIs & 70+ DB Models:** Engineered modular microservices across multi-tenant boundaries with tenant data isolation, Google OAuth SSO, and Role-Based Access Control (RBAC).
+- **Gemini AI Conversational Engine:** Developed an intelligent AI chatbot resolving **90%+ of inbound customer inquiries** with dynamic context prompts, visual workflows, and agent takeover.
+- **Redis Webhook Pipeline:** Architected high-throughput Redis OTP and webhook event ingestion processing with response latency **under 200 ms**.
+- **Financial Ledger:** Implemented double-entry, transaction-safe wallet ledger with ACID transactions for message credit billing.
+- **Tech Stack:** `TypeScript` · `Next.js 14` · `Node.js` · `Express` · `MongoDB` · `Redis` · `Socket.IO` · `Docker` · `Kubernetes`
+
+---
+
+### 🏢 SDE Intern · [OM Software](https://careers.omsoftwares.in/) *(Jun 2025 – Sep 2025)*
+- Built full-stack **recruitment career portal** serving **500+ monthly active users** with applicant tracking, hiring pipelines, and centralized admin panels.
+- Implemented **AI-assisted resume parsing** to prefill application profiles in **under 2 seconds**, reducing manual HR data entry by **60%**.
+
+---
+
+### 🏢 Backend Intern · Coding Bits Pvt Ltd *(Jan 2024 – Jun 2024)*
+- Engineered **15+ production REST APIs** with JWT authentication, RBAC, input validation, and centralized error middleware.
+- Optimized database indexing and aggregation pipelines to improve response speeds by **30%**.
 
 ---
 
@@ -138,17 +162,12 @@ I am a **Software Engineer & Systems Architect** focused on designing, building,
 
 ---
 
-## 🏆 Honors & Experience Track Record
+## 🏆 Honors & Recognitions
 
-- 🏢 **Software Engineering Intern** · **ConnectSphere** *(Feb 2026 – Present)*  
-  Built multi-tenant enterprise WhatsApp API engine with 180+ REST APIs, Gemini AI bots, Redis webhook infrastructure, and transactional ledgers.
-- 🏢 **SDE Intern** · **OM Software** *(Jun 2025 – Sep 2025)*  
-  Architected a full-stack recruitment portal with AI resume parsing (<2s extraction) and candidate tracking workflows for 500+ monthly users.
-- 🏢 **Backend Intern** · **Coding Bits Pvt Ltd** *(Jan 2024 – Jun 2024)*  
-  Engineered 15+ secure REST APIs with RBAC and boosted MongoDB query performance by 30%.
 - 🏅 **NTSE Scholar** · Awarded the prestigious National Talent Search Examination scholarship by NCERT.
 - 🏫 **Jawahar Navodaya Vidyalaya (JNV)** · Selected through national entrance examination for distinguished pace-setting education.
 - 💡 **Smart India Hackathon (SIH)** · Contributor and developer in national-level innovation hackathons.
+- 🧠 **500+ Algorithmic Problems Solved** across LeetCode and GeeksforGeeks.
 
 ---
 
